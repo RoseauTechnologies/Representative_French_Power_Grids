@@ -113,10 +113,6 @@ For example, the representativeness size of the network `11_MVFeeder0725` is 326
 
 The total cluster size is 24135, so the network `11_MVFeeder0725` represents 1.3507% of the French distribution network.
 
-The following section is a translation of the dataset description made available by Mr. Abdelouadoud on the
-[data.gouv.fr](https://www.data.gouv.fr/fr/datasets/departs-hta-representatifs-pour-lanalyse-des-reseaux-de-distribution-francais/)
-website.
-
 ## Scripts
 
 The `scripts/` folder contains two scripts:
@@ -132,6 +128,10 @@ To run these scripts:
 uv run scripts/convert_networks.py
 uv run scripts/plot_networks.py
 ```
+
+The following section is a translation of the dataset description made available by Mr. Abdelouadoud on the
+[data.gouv.fr](https://www.data.gouv.fr/fr/datasets/departs-hta-representatifs-pour-lanalyse-des-reseaux-de-distribution-francais/)
+website.
 
 ## Representative MV Feeders for the Analysis of French Distribution Networks
 

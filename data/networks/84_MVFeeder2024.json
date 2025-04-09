@@ -1,0 +1,6203 @@
+{
+  "version": 4,
+  "is_multiphase": true,
+  "crs": {
+    "data": "EPSG:4326",
+    "normalize": false
+  },
+  "grounds": [
+    {
+      "id": "gnd"
+    }
+  ],
+  "potential_refs": [
+    {
+      "id": "pref",
+      "ground": "gnd"
+    }
+  ],
+  "buses": [
+    {
+      "id": "MVVoltage_source",
+      "phases": "abcn"
+    },
+    {
+      "id": "84_JOUX",
+      "phases": "abc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.725134084978561, 46.00925715225257]
+      },
+      "nominal_voltage": 20000.0,
+      "min_voltage_level": 0.95,
+      "max_voltage_level": 1.05
+    },
+    {
+      "id": "84_MVBus051915",
+      "phases": "abc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.72532376243309, 46.008181861754956]
+      },
+      "nominal_voltage": 20000.0,
+      "min_voltage_level": 0.95,
+      "max_voltage_level": 1.05
+    },
+    {
+      "id": "84_MVBus051916",
+      "phases": "abc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.740652501404877, 45.99899492920553]
+      },
+      "nominal_voltage": 20000.0,
+      "min_voltage_level": 0.95,
+      "max_voltage_level": 1.05
+    },
+    {
+      "id": "84_MVLV044798",
+      "phases": "abc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741896372886544, 45.9983212208234]
+      },
+      "nominal_voltage": 20000.0,
+      "min_voltage_level": 0.95,
+      "max_voltage_level": 1.05
+    },
+    {
+      "id": "84_MVLV035099",
+      "phases": "abc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.74501976779356, 46.00139265201595]
+      },
+      "nominal_voltage": 20000.0,
+      "min_voltage_level": 0.95,
+      "max_voltage_level": 1.05
+    },
+    {
+      "id": "84_MVLV113358",
+      "phases": "abc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.745175787053397, 46.00082464762041]
+      },
+      "nominal_voltage": 20000.0,
+      "min_voltage_level": 0.95,
+      "max_voltage_level": 1.05
+    },
+    {
+      "id": "84_MVLV008069",
+      "phases": "abc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.738148080024675, 45.99901177095311]
+      },
+      "nominal_voltage": 20000.0,
+      "min_voltage_level": 0.95,
+      "max_voltage_level": 1.05
+    },
+    {
+      "id": "84_MVLV034966",
+      "phases": "abc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.740210843795765, 45.99730948725422]
+      },
+      "nominal_voltage": 20000.0,
+      "min_voltage_level": 0.95,
+      "max_voltage_level": 1.05
+    },
+    {
+      "id": "84_MVLV154518",
+      "phases": "abc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.742890577701409, 45.99525672614827]
+      },
+      "nominal_voltage": 20000.0,
+      "min_voltage_level": 0.95,
+      "max_voltage_level": 1.05
+    },
+    {
+      "id": "84_MVLV023242",
+      "phases": "abc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.746013807672307, 45.99245138413018]
+      },
+      "nominal_voltage": 20000.0,
+      "min_voltage_level": 0.95,
+      "max_voltage_level": 1.05
+    },
+    {
+      "id": "84_MVLV143067",
+      "phases": "abc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.743820774939967, 45.9945005771353]
+      },
+      "nominal_voltage": 20000.0,
+      "min_voltage_level": 0.95,
+      "max_voltage_level": 1.05
+    },
+    {
+      "id": "84_MVLV057492",
+      "phases": "abc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741846997330848, 45.99497205505178]
+      },
+      "nominal_voltage": 20000.0,
+      "min_voltage_level": 0.95,
+      "max_voltage_level": 1.05
+    },
+    {
+      "id": "84_MVLV015641",
+      "phases": "abc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.74152616083776, 45.99398937818545]
+      },
+      "nominal_voltage": 20000.0,
+      "min_voltage_level": 0.95,
+      "max_voltage_level": 1.05
+    },
+    {
+      "id": "84_MVLV065352",
+      "phases": "abc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741092330371863, 45.992314556915375]
+      },
+      "nominal_voltage": 20000.0,
+      "min_voltage_level": 0.95,
+      "max_voltage_level": 1.05
+    },
+    {
+      "id": "84_MVBus051917",
+      "phases": "abc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.742791324993076, 45.98970089896963]
+      },
+      "nominal_voltage": 20000.0,
+      "min_voltage_level": 0.95,
+      "max_voltage_level": 1.05
+    },
+    {
+      "id": "84_MVLV065352_LV",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741092330371863, 45.992314556915375]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433160",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.74085457762454, 45.99219361157648]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433152",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741092733860708, 45.9921277389994]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433153",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741206461606599, 45.99213385549312]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433154",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741100984956599, 45.99210506021696]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433155",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.74126297047424, 45.99150668510028]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433158",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741521187041577, 45.99126505077536]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433156",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741157343274849, 45.991437055020036]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433157",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.740572862307324, 45.99133070465201]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433150",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741340177519241, 45.99254780052236]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433142",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741891185078845, 45.99250904312781]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433146",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741956384671771, 45.99275878355042]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433147",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.742104314157818, 45.99301035930792]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433148",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741893574268841, 45.99374034627646]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433143",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.742144494762861, 45.99203349178829]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433144",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.742331249283833, 45.991373036680365]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433145",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741841765111028, 45.991957689361584]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433140",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.740873354042549, 45.99243084979731]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433138",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741219752768425, 45.992334342076326]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_MVLV015641_LV",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.74152616083776, 45.99398937818545]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433098",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741563797672383, 45.99404216807104]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433095",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741736592267745, 45.99333138060515]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433096",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741188997963847, 45.99337071234753]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_MVLV154518_LV",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.742890577701409, 45.99525672614827]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433202",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.742722823141671, 45.99511268771187]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433197",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.743141658471025, 45.995416088001306]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433198",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.742950583293188, 45.99568209913527]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433200",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.743049681342932, 45.99573309077607]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433199",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.742378891237918, 45.99625056883746]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433195",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.742809135225613, 45.99525486381968]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433192",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741170352560506, 45.99540323994557]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433193",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.74091859891904, 45.99540500830651]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433178",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.743647085769719, 45.99498584604149]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433179",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.744112175364953, 45.994254924968374]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433180",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.744242204069209, 45.993893003035254]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433189",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.744269976949959, 45.99387965534288]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433190",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.744302405937924, 45.993871464874715]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433181",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.743870732579492, 45.993750472102924]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433185",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.74315307091815, 45.99334372984251]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433186",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.743080067097798, 45.99336752089271]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433187",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.743059929254142, 45.99341622378909]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433188",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.743063352304351, 45.99339771641004]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433182",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.743899064456238, 45.993762783801806]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433184",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.744113206392115, 45.9935032541703]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433183",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.744479585341316, 45.99308317801885]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433176",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.742976838642422, 45.9952800882948]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433173",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741240555424758, 45.99564927368055]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433174",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.74145696062811, 45.995636557120726]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_MVLV034966_LV",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.740210843795765, 45.99730948725422]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433127",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.739567068148411, 45.997715117901215]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433125",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.740234282578057, 45.997254980856944]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433123",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.740463492611173, 45.99747512248594]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433121",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.739435382150136, 45.99700197615882]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433116",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.739591555756014, 45.99702925068601]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433117",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.739034050668636, 45.99739217454826]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433118",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.738756544890235, 45.99748518184429]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433119",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.738599891390103, 45.997527998063745]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433111",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.739589161268234, 45.99700409857981]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433112",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.738954415073331, 45.997313761362165]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433113",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.738987252694004, 45.99729685969412]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433114",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.738793588353984, 45.997504411131516]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433109",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.740135004805889, 45.99734710841734]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433100",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.739630951544437, 45.9969852066918]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433101",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.73986707139025, 45.99656792277817]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433102",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.739962358721408, 45.996267054473584]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433106",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.740075557608312, 45.99628624419524]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433103",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.74027508916684, 45.995299968207796]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433104",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.740495354550933, 45.99496313075249]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433105",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.740138146989511, 45.99473941737267]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433107",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.739990553526191, 45.99658599330102]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_MVLV008069_LV",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.738148080024675, 45.99901177095311]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433087",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.737376062559358, 45.999424260147606]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433092",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.737739118305302, 45.99997197940331]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433093",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.737486179090345, 45.999954826542684]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433088",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.736282612793849, 45.99923203144154]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433091",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.735740675302285, 45.999243563580364]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433089",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.736283193353953, 45.99983509347532]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433090",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.736287902138246, 46.00112215913983]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433085",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.738574605004028, 45.999814586677914]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_MVLV113358_LV",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.745175787053397, 46.00082464762041]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433166",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.745216478420775, 46.00078807969602]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433167",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.746498977208398, 46.00154347548883]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433168",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.746544658791328, 46.00140748120394]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433169",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.746451810019709, 46.00105841883672]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433170",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.747133418813282, 46.00040476453129]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433162",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.745173019716167, 46.00076169837444]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433163",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.744524934798394, 46.00041549215064]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433164",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.743124378792181, 45.999698295100096]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_MVLV044798_LV",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741896372886544, 45.9983212208234]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433136",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.742452105884609, 45.99785930794703]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433134",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.741828302620276, 45.998329873785075]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433129",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.742718790672675, 45.997638490270056]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433130",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.742342358738128, 45.99750700502976]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433131",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.742730087346909, 45.99763104829696]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    },
+    {
+      "id": "84_LVBus0433132",
+      "phases": "abcn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.74310678664634, 45.99729806808528]
+      },
+      "nominal_voltage": 400,
+      "min_voltage_level": 0.9,
+      "max_voltage_level": 1.1
+    }
+  ],
+  "lines": [
+    {
+      "id": "84_187689",
+      "phases": "abc",
+      "bus1": "84_JOUX",
+      "bus2": "84_MVBus051915",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.725134084978561, 46.00925715225257],
+          [4.725179188178629, 46.00920951461048],
+          [4.725197278926484, 46.009199878273435],
+          [4.725233343450004, 46.00917703461546],
+          [4.72537621809048, 46.009086526273514],
+          [4.725764990582264, 46.0082979007779],
+          [4.72532376243309, 46.008181861754956]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150",
+      "length": 0.14970485764848304,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_133972",
+      "phases": "abc",
+      "bus1": "84_MVBus051915",
+      "bus2": "84_MVBus051916",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.72532376243309, 46.008181861754956],
+          [4.72532376243309, 46.008181861754956],
+          [4.728127036512134, 46.008056695172364],
+          [4.733979071483374, 46.00684757556716],
+          [4.740274660961693, 46.000686198855156],
+          [4.740652501404877, 45.99899492920553],
+          [4.740652501404877, 45.99899492920553]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "O_AM_148",
+      "length": 1.7212983559972226,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_303053",
+      "phases": "abc",
+      "bus1": "84_MVBus051916",
+      "bus2": "84_MVLV044798",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.740652501404877, 45.99899492920553],
+          [4.740652501404877, 45.99899492920553],
+          [4.741259852262425, 45.999179103091684],
+          [4.741940556688915, 45.998415690259904],
+          [4.741908374118914, 45.99834688806535],
+          [4.74190237350133, 45.9983340544445],
+          [4.741896372886544, 45.9983212208234]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150",
+      "length": 0.16075661743651015,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_238344",
+      "phases": "abc",
+      "bus1": "84_MVLV044798",
+      "bus2": "84_MVLV035099",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741896372886544, 45.9983212208234],
+          [4.74190959176955, 45.99833108310986],
+          [4.741922797754262, 45.99834094567],
+          [4.742001859706124, 45.99839998069385],
+          [4.741294872941437, 45.999241364129325],
+          [4.741269914197801, 45.99943221625666],
+          [4.741447538788485, 45.999722062908816],
+          [4.741583495166815, 45.999848491442435],
+          [4.741904989126426, 45.999974463628746],
+          [4.742135942785544, 45.9999800231275],
+          [4.742495175745217, 45.99993739844954],
+          [4.742832069204395, 45.999842826732404],
+          [4.742988335447074, 45.99978581817539],
+          [4.744192699569671, 46.000168446828276],
+          [4.745513652953059, 46.00087143735132],
+          [4.74598018498392, 46.001164026924094],
+          [4.745545184732235, 46.001525429653526],
+          [4.745514450242727, 46.001511450298565],
+          [4.745506301976894, 46.00149445009003],
+          [4.74548598317527, 46.001476188677486],
+          [4.745459667709391, 46.001467830664154],
+          [4.745418435159045, 46.00145420156685],
+          [4.745230242146659, 46.00137673382993],
+          [4.745173327946484, 46.00136541087601],
+          [4.745125983662198, 46.00136699822323],
+          [4.745069107217021, 46.00138062572031],
+          [4.74505789817089, 46.00138331346085],
+          [4.745045065766905, 46.001386386920224],
+          [4.74501976779356, 46.00139265201595]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150",
+      "length": 0.6865649313676634,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_256552",
+      "phases": "abc",
+      "bus1": "84_MVLV035099",
+      "bus2": "84_MVLV113358",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.74501976779356, 46.00139265201595],
+          [4.745050419452536, 46.001396524930534],
+          [4.745065432954929, 46.001392531768424],
+          [4.745072288730649, 46.00139071111237],
+          [4.745129623474274, 46.001375462610945],
+          [4.745167199136445, 46.00137465999784],
+          [4.745224113344976, 46.00138598295485],
+          [4.745408866184329, 46.001459527661545],
+          [4.745489532151445, 46.00148669826668],
+          [4.745545326644612, 46.00151250090518],
+          [4.745926097022098, 46.001181726827426],
+          [4.745280227140275, 46.00082061645696],
+          [4.745214468598127, 46.00082315527432],
+          [4.745195127826028, 46.00082390144907],
+          [4.745175787053397, 46.00082464762041]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150",
+      "length": 0.160549908451403,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_358783",
+      "phases": "abc",
+      "bus1": "84_MVLV113358",
+      "bus2": "84_MVLV008069",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.745175787053397, 46.00082464762041],
+          [4.745176563414646, 46.00081116525094],
+          [4.745177339775517, 46.000797682881554],
+          [4.745180168865446, 46.00074804387513],
+          [4.744165590196598, 46.00022753339833],
+          [4.744076545629414, 46.00016452702213],
+          [4.742986469151861, 45.99982978354052],
+          [4.742849248798902, 45.99989139928835],
+          [4.742497015785865, 45.999979304467956],
+          [4.742007803094663, 46.00003168706049],
+          [4.741765150136692, 45.99998793283065],
+          [4.741436797768606, 45.99982016126205],
+          [4.741243241936998, 45.999523696460706],
+          [4.741151580275706, 45.999263502338444],
+          [4.740091840828933, 45.9988940254251],
+          [4.739417922819218, 45.9989579126866],
+          [4.738186707752943, 45.99901379258624],
+          [4.738167393888456, 45.99901278177138],
+          [4.738148080024675, 45.99901177095311]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150",
+      "length": 0.6451772082179701,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_292484",
+      "phases": "abc",
+      "bus1": "84_MVLV008069",
+      "bus2": "84_MVLV034966",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.738148080024675, 45.99901177095311],
+          [4.738167429321388, 45.99901123282461],
+          [4.738186778617718, 45.999010694692736],
+          [4.739476367386549, 45.99891822343967],
+          [4.73984351464523, 45.99885003727915],
+          [4.739803550098777, 45.9988087008005],
+          [4.739687653081775, 45.998698656862054],
+          [4.739598064296121, 45.998570049906114],
+          [4.739508594237218, 45.9984441406955],
+          [4.739428973806378, 45.99830722018225],
+          [4.739448334661771, 45.99821859661314],
+          [4.739456910889615, 45.99814910521962],
+          [4.739476311079427, 45.99806138091819],
+          [4.739586229105673, 45.9979762281214],
+          [4.739503686019179, 45.99780151124842],
+          [4.739896974862273, 45.99758659842509],
+          [4.740195334767195, 45.99733249169571],
+          [4.74020836715957, 45.99732251066821],
+          [4.740210843795765, 45.99730948725422]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150",
+      "length": 0.33747092019136615,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_244697",
+      "phases": "abc",
+      "bus1": "84_MVLV034966",
+      "bus2": "84_MVLV154518",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.740210843795765, 45.99730948725422],
+          [4.740226200554802, 45.997301265900575],
+          [4.740241557309247, 45.997293044544826],
+          [4.740290038883757, 45.99728772648028],
+          [4.740528094873865, 45.99699060983063],
+          [4.740849364089716, 45.996490832160404],
+          [4.741328263234022, 45.99499932201029],
+          [4.741339381906699, 45.99500019200543],
+          [4.741446186774342, 45.99500850829994],
+          [4.742817785720143, 45.995187170721934],
+          [4.742867769264214, 45.99523492612459],
+          [4.742879173480554, 45.99524582613701],
+          [4.742890577701409, 45.99525672614827]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150",
+      "length": 0.3992421480154231,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_342169",
+      "phases": "abc",
+      "bus1": "84_MVLV154518",
+      "bus2": "84_MVLV023242",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.742890577701409, 45.99525672614827],
+          [4.742897893810451, 45.99524422945564],
+          [4.742905209916171, 45.995231732762534],
+          [4.742924216318553, 45.995199301095695],
+          [4.743057978730571, 45.99521624869318],
+          [4.743258833173882, 45.99523176404928],
+          [4.743453631435396, 45.99516819835763],
+          [4.743757132263806, 45.99477807272557],
+          [4.74397617890399, 45.99453395667873],
+          [4.744148080905282, 45.99421798269638],
+          [4.744138557114627, 45.99399297765963],
+          [4.7446816843542, 45.993817206846],
+          [4.744898867701052, 45.993658990498545],
+          [4.745541876884846, 45.99290384774331],
+          [4.745954526194471, 45.99244857349846],
+          [4.745975102777273, 45.9924522112834],
+          [4.745994455224941, 45.9924517977084],
+          [4.746013807672307, 45.99245138413018]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150",
+      "length": 0.4234934633660141,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_282798",
+      "phases": "abc",
+      "bus1": "84_MVLV023242",
+      "bus2": "84_MVLV143067",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.746013807672307, 45.99245138413018],
+          [4.745996715587528, 45.99244505255383],
+          [4.745979623506684, 45.99243872097503],
+          [4.745954774431677, 45.99242778455944],
+          [4.74552138678835, 45.9928698651871],
+          [4.744853323921416, 45.99365996332989],
+          [4.744665452736205, 45.99379372751933],
+          [4.744086137776444, 45.993977669921684],
+          [4.744116110246146, 45.9941387263009],
+          [4.743984605849016, 45.994439750890415],
+          [4.743858380479304, 45.99450702914045],
+          [4.74383957770854, 45.99450380313942],
+          [4.743820774939967, 45.9945005771353]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150",
+      "length": 0.3021895695416745,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_244415",
+      "phases": "abc",
+      "bus1": "84_MVLV143067",
+      "bus2": "84_MVLV057492",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.743820774939967, 45.9945005771353],
+          [4.743836934256211, 45.99450800910224],
+          [4.743853093576806, 45.99451544106692],
+          [4.743855738660701, 45.994562424520836],
+          [4.743403101869014, 45.9951350727012],
+          [4.743270655993709, 45.995177504889256],
+          [4.743051080185664, 45.99517679095194],
+          [4.742155019069912, 45.995063595921316],
+          [4.741845579546297, 45.995014192572086],
+          [4.741846089737819, 45.99499904179171],
+          [4.741846543534438, 45.9949855484217],
+          [4.741846997330848, 45.99497205505178]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150",
+      "length": 0.2060270130478525,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_352910",
+      "phases": "abc",
+      "bus1": "84_MVLV057492",
+      "bus2": "84_MVLV015641",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741846997330848, 45.99497205505178],
+          [4.74184176906164, 45.99498504719962],
+          [4.741836540789963, 45.99499803934718],
+          [4.741804167163658, 45.99500927928539],
+          [4.741384930034556, 45.994936905731464],
+          [4.741600123590893, 45.99402918767714],
+          [4.741604127639265, 45.99401037092271],
+          [4.741557918694935, 45.99400237348061],
+          [4.741551425335545, 45.99400125183113],
+          [4.74152616083776, 45.99398937818545]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150",
+      "length": 0.1463448801650068,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_303359",
+      "phases": "abc",
+      "bus1": "84_MVLV015641",
+      "bus2": "84_MVLV065352",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.74152616083776, 45.99398937818545],
+          [4.741558753387259, 45.993986081640216],
+          [4.741566301036301, 45.99398680275307],
+          [4.741607929622366, 45.9939907753805],
+          [4.741589180345673, 45.99397139984984],
+          [4.741606375678824, 45.993979791149656],
+          [4.742047061920889, 45.99252834632637],
+          [4.742072716277588, 45.99252587272881],
+          [4.742064738435563, 45.992520642267046],
+          [4.741129375583785, 45.99232240791322],
+          [4.741110852976503, 45.99231848241584],
+          [4.741092330371863, 45.992314556915375]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150",
+      "length": 0.25306883504268196,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_413535",
+      "phases": "abc",
+      "bus1": "84_MVLV065352",
+      "bus2": "84_MVBus051917",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741092330371863, 45.992314556915375],
+          [4.741111521841284, 45.992316361887866],
+          [4.741130713311962, 45.99231816685697],
+          [4.742042708374473, 45.992453288804896],
+          [4.742062986283167, 45.99244453911883],
+          [4.742864418862578, 45.9898748428673],
+          [4.742904826438754, 45.98974343703809],
+          [4.742800511433822, 45.98971278241265],
+          [4.742791324993076, 45.98970089896963]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150",
+      "length": 0.3930872344822595,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1170195",
+      "phases": "abcn",
+      "bus1": "84_MVLV065352_LV",
+      "bus2": "84_LVBus0433160",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741092330371863, 45.992314556915375],
+          [4.741074449612129, 45.99230936656712],
+          [4.741074449612129, 45.99230936656712],
+          [4.740843806503815, 45.99224244733317],
+          [4.740853899754653, 45.992196704416074],
+          [4.74085457762454, 45.99219361157648],
+          [4.74085457762454, 45.99219361157648]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.024847083144035973,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1372887",
+      "phases": "abcn",
+      "bus1": "84_MVLV065352_LV",
+      "bus2": "84_LVBus0433152",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741092330371863, 45.992314556915375],
+          [4.741086931849553, 45.99230159341922],
+          [4.741086931849553, 45.99230159341922],
+          [4.741056248999571, 45.99222801553407],
+          [4.741092733860708, 45.9921277389994],
+          [4.741092733860708, 45.9921277389994]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.020015428379651992,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1486055",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433152",
+      "bus2": "84_LVBus0433153",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741092733860708, 45.9921277389994],
+          [4.741092733860708, 45.9921277389994],
+          [4.741181276564872, 45.99214025237805],
+          [4.741200395306292, 45.99213539805372],
+          [4.741205542162962, 45.99213409113036],
+          [4.741206461606599, 45.99213385549312],
+          [4.741206461606599, 45.99213385549312]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.009076072926553169,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1543694",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433153",
+      "bus2": "84_LVBus0433154",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741206461606599, 45.99213385549312],
+          [4.741206461606599, 45.99213385549312],
+          [4.741186585207132, 45.99211938256351],
+          [4.741100984956599, 45.99210506021696],
+          [4.741100984956599, 45.99210506021696]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.00904713693864358,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1441908",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433154",
+      "bus2": "84_LVBus0433155",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741100984956599, 45.99210506021696],
+          [4.741100984956599, 45.99210506021696],
+          [4.741292537377566, 45.99153099657302],
+          [4.741267714395006, 45.991509734309666],
+          [4.74126297047424, 45.99150668510028],
+          [4.74126297047424, 45.99150668510028]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.06905780920895681,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1149453",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433155",
+      "bus2": "84_LVBus0433158",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.74126297047424, 45.99150668510028],
+          [4.74126297047424, 45.99150668510028],
+          [4.741361879535912, 45.991520030341135],
+          [4.741400077678238, 45.99152238396335],
+          [4.741476682516164, 45.991263470800284],
+          [4.741491059869298, 45.99126063479825],
+          [4.74150491455035, 45.99126266154956],
+          [4.741521187041577, 45.99126505077536],
+          [4.741521187041577, 45.99126505077536]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.04370310055122913,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0939673",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433155",
+      "bus2": "84_LVBus0433156",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.74126297047424, 45.99150668510028],
+          [4.74126297047424, 45.99150668510028],
+          [4.741267233651738, 45.991491715313394],
+          [4.741196986605989, 45.99148176417497],
+          [4.741158640258538, 45.991476326260475],
+          [4.741157343274849, 45.991437055020036],
+          [4.741157343274849, 45.991437055020036]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.014647988872520841,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1563501",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433156",
+      "bus2": "84_LVBus0433157",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741157343274849, 45.991437055020036],
+          [4.741157343274849, 45.991437055020036],
+          [4.741096059711179, 45.99148246757475],
+          [4.740575702582039, 45.991395452158415],
+          [4.740572862307324, 45.99133070465201],
+          [4.740572862307324, 45.99133070465201]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.0555886575258253,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0827782",
+      "phases": "abcn",
+      "bus1": "84_MVLV065352_LV",
+      "bus2": "84_LVBus0433150",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741092330371863, 45.992314556915375],
+          [4.741085693807508, 45.99232723701989],
+          [4.741085693807508, 45.99232723701989],
+          [4.741020839062127, 45.992451098455085],
+          [4.741332069297483, 45.9925101687439],
+          [4.741339462653595, 45.99254445835076],
+          [4.741340177519241, 45.99254780052236],
+          [4.741340177519241, 45.99254780052236]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.04387542281255472,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0756255",
+      "phases": "abcn",
+      "bus1": "84_MVLV065352_LV",
+      "bus2": "84_LVBus0433142",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741092330371863, 45.992314556915375],
+          [4.741096293384299, 45.992327767054086],
+          [4.741096293384299, 45.992327767054086],
+          [4.741121065450638, 45.99241025609011],
+          [4.741844198842131, 45.99252714767681],
+          [4.741891185078845, 45.99250904312781],
+          [4.741891185078845, 45.99250904312781]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.07103760061943884,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1196067",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433142",
+      "bus2": "84_LVBus0433146",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741891185078845, 45.99250904312781],
+          [4.741891185078845, 45.99250904312781],
+          [4.741882042505813, 45.992534648357214],
+          [4.741855531618141, 45.99260881615185],
+          [4.741924473221935, 45.99273786166665],
+          [4.741956384671771, 45.99275878355042],
+          [4.741956384671771, 45.99275878355042]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.03012857860069009,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1373749",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433146",
+      "bus2": "84_LVBus0433147",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741956384671771, 45.99275878355042],
+          [4.741956384671771, 45.99275878355042],
+          [4.742101014871132, 45.992788101859084],
+          [4.742052773524249, 45.992983555473586],
+          [4.742099146795671, 45.993007670208115],
+          [4.742104314157818, 45.99301035930792],
+          [4.742104314157818, 45.99301035930792]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.03869527585265849,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1275606",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433147",
+      "bus2": "84_LVBus0433148",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.742104314157818, 45.99301035930792],
+          [4.742104314157818, 45.99301035930792],
+          [4.742042661916029, 45.993017975492855],
+          [4.741976750317722, 45.99323953128988],
+          [4.741837846704509, 45.993706430751736],
+          [4.741888717950538, 45.99373738949713],
+          [4.741893574268841, 45.99374034627646],
+          [4.741893574268841, 45.99374034627646]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.08873278668454682,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0775967",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433142",
+      "bus2": "84_LVBus0433143",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741891185078845, 45.99250904312781],
+          [4.741891185078845, 45.99250904312781],
+          [4.741915789562334, 45.992540022147345],
+          [4.741989642292962, 45.992522640531895],
+          [4.742143060223244, 45.99203787894206],
+          [4.742144290166989, 45.99203412623254],
+          [4.742144494762861, 45.99203349178829],
+          [4.742144494762861, 45.99203349178829]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.06565215201797801,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1696802",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433143",
+      "bus2": "84_LVBus0433144",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.742144494762861, 45.99203349178829],
+          [4.742144494762861, 45.99203349178829],
+          [4.742239799634652, 45.991754664591596],
+          [4.742240158005655, 45.991753414789194],
+          [4.742348703969085, 45.99137882099013],
+          [4.742339216501804, 45.991375675021914],
+          [4.742331249283833, 45.991373036680365],
+          [4.742331249283833, 45.991373036680365]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.07597574000126561,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1170198",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433143",
+      "bus2": "84_LVBus0433145",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.742144494762861, 45.99203349178829],
+          [4.742144494762861, 45.99203349178829],
+          [4.74212917853564, 45.99200376382351],
+          [4.741848059580991, 45.99195869821745],
+          [4.741846290762972, 45.991958411913224],
+          [4.741841765111028, 45.991957689361584],
+          [4.741841765111028, 45.991957689361584]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.026359438921408414,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0756254",
+      "phases": "abcn",
+      "bus1": "84_MVLV065352_LV",
+      "bus2": "84_LVBus0433140",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741092330371863, 45.992314556915375],
+          [4.741077592283746, 45.99232330529055],
+          [4.741077592283746, 45.99232330529055],
+          [4.74101203173962, 45.99243520127831],
+          [4.740879947310828, 45.99241335502929],
+          [4.740876638959179, 45.99242212966659],
+          [4.740873354042549, 45.99243084979731],
+          [4.740873354042549, 45.99243084979731]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.02596231981405499,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1259176",
+      "phases": "abcn",
+      "bus1": "84_MVLV065352_LV",
+      "bus2": "84_LVBus0433138",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741092330371863, 45.992314556915375],
+          [4.741111222819576, 45.992317493405565],
+          [4.741111222819576, 45.992317493405565],
+          [4.741213446549158, 45.992333360438515],
+          [4.741218322540693, 45.99233412054932],
+          [4.741219752768425, 45.992334342076326],
+          [4.741219752768425, 45.992334342076326]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.008614282478903428,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1444014",
+      "phases": "abcn",
+      "bus1": "84_MVLV015641_LV",
+      "bus2": "84_LVBus0433098",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.74152616083776, 45.99398937818545],
+          [4.741545473445957, 45.99400864269758],
+          [4.741545473445957, 45.99400864269758],
+          [4.741569793578118, 45.994013416592715],
+          [4.741564256950939, 45.99403998000178],
+          [4.741563797672383, 45.99404216807104],
+          [4.741563797672383, 45.99404216807104]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.005186759163783444,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1105562",
+      "phases": "abcn",
+      "bus1": "84_MVLV015641_LV",
+      "bus2": "84_LVBus0433095",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.74152616083776, 45.99398937818545],
+          [4.741549755879726, 45.993980278813936],
+          [4.741549755879726, 45.993980278813936],
+          [4.741572780921557, 45.993973198846966],
+          [4.741579779790524, 45.99395523632619],
+          [4.741624923095427, 45.993839202969966],
+          [4.741656843034495, 45.99371053505471],
+          [4.741740445113232, 45.99337355870127],
+          [4.74175053991488, 45.99333286528741],
+          [4.741736592267745, 45.99333138060515],
+          [4.741736592267745, 45.99333138060515]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.0755898878887195,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0913957",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433095",
+      "bus2": "84_LVBus0433096",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741736592267745, 45.99333138060515],
+          [4.741736592267745, 45.99333138060515],
+          [4.741684235377686, 45.993326880800005],
+          [4.741666349226392, 45.99331333760696],
+          [4.741611330513682, 45.99325907331968],
+          [4.74156082759232, 45.99325532600999],
+          [4.741198474648489, 45.993264125943554],
+          [4.741187199922529, 45.99326999211146],
+          [4.741188837298284, 45.993362047691576],
+          [4.741188997963847, 45.99337071234753],
+          [4.741188997963847, 45.99337071234753]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.05782887053223262,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1624522",
+      "phases": "abcn",
+      "bus1": "84_MVLV154518_LV",
+      "bus2": "84_LVBus0433202",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.742890577701409, 45.99525672614827],
+          [4.742891031243913, 45.995243232773795],
+          [4.742891031243913, 45.995243232773795],
+          [4.74289339586857, 45.99517385559324],
+          [4.742708919848967, 45.99514898893957],
+          [4.742722823141671, 45.99511268771187],
+          [4.742722823141671, 45.99511268771187]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.026445935063121543,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0946281",
+      "phases": "abcn",
+      "bus1": "84_MVLV154518_LV",
+      "bus2": "84_LVBus0433197",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.742890577701409, 45.99525672614827],
+          [4.742905182130621, 45.99524786338326],
+          [4.742905182130621, 45.99524786338326],
+          [4.742910050141007, 45.99524490613021],
+          [4.742954756949403, 45.995217785686485],
+          [4.742987437545725, 45.99519795178399],
+          [4.743041363712572, 45.9952202037691],
+          [4.743141658471025, 45.995416088001306],
+          [4.743141658471025, 45.995416088001306]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.036421422129005905,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1773716",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433197",
+      "bus2": "84_LVBus0433198",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.743141658471025, 45.995416088001306],
+          [4.743141658471025, 45.995416088001306],
+          [4.743133610395295, 45.99545602678444],
+          [4.743129993444614, 45.995473944229715],
+          [4.742950583293188, 45.99568209913527],
+          [4.742950583293188, 45.99568209913527]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.033484392374896414,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1091776",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433198",
+      "bus2": "84_LVBus0433200",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.742950583293188, 45.99568209913527],
+          [4.742950583293188, 45.99568209913527],
+          [4.743044488663756, 45.995730420255086],
+          [4.743049681342932, 45.99573309077607],
+          [4.743049681342932, 45.99573309077607]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.009542586344659185,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0994519",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433198",
+      "bus2": "84_LVBus0433199",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.742950583293188, 45.99568209913527],
+          [4.742950583293188, 45.99568209913527],
+          [4.742423470552367, 45.996265819667336],
+          [4.74238468654739, 45.99625255144637],
+          [4.742378891237918, 45.99625056883746],
+          [4.742378891237918, 45.99625056883746]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.08050910248239183,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1563500",
+      "phases": "abcn",
+      "bus1": "84_MVLV154518_LV",
+      "bus2": "84_LVBus0433195",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.742890577701409, 45.99525672614827],
+          [4.742876757445909, 45.99524727287537],
+          [4.742876757445909, 45.99524727287537],
+          [4.742828001958188, 45.99521395608545],
+          [4.742811116826159, 45.99525058199672],
+          [4.742809135225613, 45.99525486381968],
+          [4.742809135225613, 45.99525486381968]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.01006570605020191,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1466807",
+      "phases": "abcn",
+      "bus1": "84_MVLV154518_LV",
+      "bus2": "84_LVBus0433192",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.742890577701409, 45.99525672614827],
+          [4.742886614046968, 45.995243516069785],
+          [4.742886614046968, 45.995243516069785],
+          [4.742869394876156, 45.995186069294355],
+          [4.742372035519025, 45.99510956987617],
+          [4.741785015203669, 45.995019283045806],
+          [4.741314024682219, 45.995175147645504],
+          [4.741224858116127, 45.99540927840536],
+          [4.741170352560506, 45.99540323994557],
+          [4.741170352560506, 45.99540323994557]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.16414374824242287,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1631159",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433192",
+      "bus2": "84_LVBus0433193",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741170352560506, 45.99540323994557],
+          [4.741170352560506, 45.99540323994557],
+          [4.740933833149296, 45.995369579056835],
+          [4.740920450464986, 45.99540070229005],
+          [4.74091859891904, 45.99540500830651],
+          [4.74091859891904, 45.99540500830651]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.02281223485253776,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1596466",
+      "phases": "abcn",
+      "bus1": "84_MVLV154518_LV",
+      "bus2": "84_LVBus0433178",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.742890577701409, 45.99525672614827],
+          [4.742899780963885, 45.995244855263415],
+          [4.742899780963885, 45.995244855263415],
+          [4.742917075366158, 45.99522255040418],
+          [4.742956577577303, 45.99517160702844],
+          [4.74313247002657, 45.99514805037715],
+          [4.743209052377378, 45.99511688303939],
+          [4.743307559282948, 45.995076804588805],
+          [4.743420401336953, 45.994999686414424],
+          [4.743557836591741, 45.99501205444081],
+          [4.743647085769719, 45.99498584604149],
+          [4.743647085769719, 45.99498584604149]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.06931837647300527,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1038452",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433178",
+      "bus2": "84_LVBus0433179",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.743647085769719, 45.99498584604149],
+          [4.743647085769719, 45.99498584604149],
+          [4.743640954566196, 45.99498444674315],
+          [4.743557072834476, 45.994965264850336],
+          [4.743821250414999, 45.9946877905794],
+          [4.743992399174192, 45.99446810908276],
+          [4.744112175364953, 45.994254924968374],
+          [4.744112175364953, 45.994254924968374]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.09758656938203944,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0946264",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433179",
+      "bus2": "84_LVBus0433180",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.744112175364953, 45.994254924968374],
+          [4.744112175364953, 45.994254924968374],
+          [4.744166796092535, 45.99408723761526],
+          [4.744165241652143, 45.994022462634206],
+          [4.744210160286491, 45.99392789162859],
+          [4.744227669930312, 45.993914916130684],
+          [4.744242204069209, 45.993893003035254],
+          [4.744242204069209, 45.993893003035254]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.0420497945304305,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1487057",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433180",
+      "bus2": "84_LVBus0433189",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.744242204069209, 45.993893003035254],
+          [4.744242204069209, 45.993893003035254],
+          [4.744264282549839, 45.993902891862135],
+          [4.744269976949959, 45.99387965534288],
+          [4.744269976949959, 45.99387965534288]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.004653350931204655,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0879574",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433189",
+      "bus2": "84_LVBus0433190",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.744269976949959, 45.99387965534288],
+          [4.744269976949959, 45.99387965534288],
+          [4.744289310577146, 45.99388820760492],
+          [4.744297572690863, 45.99388667199513],
+          [4.74430112423399, 45.99387550675229],
+          [4.744302405937924, 45.993871464874715],
+          [4.744302405937924, 45.993871464874715]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.004167712663802207,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1191086",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433180",
+      "bus2": "84_LVBus0433181",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.744242204069209, 45.993893003035254],
+          [4.744242204069209, 45.993893003035254],
+          [4.744223382152988, 45.99390814882875],
+          [4.744193664989288, 45.993912221852604],
+          [4.74414110417314, 45.99390545023887],
+          [4.744081584720511, 45.993888142843225],
+          [4.744048482227623, 45.99387012732253],
+          [4.744007054153119, 45.99383956196113],
+          [4.743966896229871, 45.993813803074225],
+          [4.743915171341695, 45.99378784109308],
+          [4.743869860438807, 45.993771481369045],
+          [4.743870732579492, 45.993750472102924],
+          [4.743870732579492, 45.993750472102924]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.03709383993355165,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1025209",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433181",
+      "bus2": "84_LVBus0433185",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.743870732579492, 45.993750472102924],
+          [4.743870732579492, 45.993750472102924],
+          [4.743860333907986, 45.993769515499956],
+          [4.743815167920858, 45.99377791477982],
+          [4.74341842875786, 45.99368926259652],
+          [4.743338160311069, 45.993658211970136],
+          [4.743285737747936, 45.99361135497374],
+          [4.743246425207309, 45.99355719722758],
+          [4.743211169007218, 45.99348072008955],
+          [4.743207831862366, 45.99340473176175],
+          [4.743220434619369, 45.99335735982577],
+          [4.74315307091815, 45.99334372984251],
+          [4.74315307091815, 45.99334372984251]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.08679455641585054,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1272315",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433185",
+      "bus2": "84_LVBus0433186",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.74315307091815, 45.99334372984251],
+          [4.74315307091815, 45.99334372984251],
+          [4.743119889088955, 45.99333771426503],
+          [4.74311166228531, 45.99334387561724],
+          [4.743080067097798, 45.99336752089271],
+          [4.743080067097798, 45.99336752089271]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.007183264527732698,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1669738",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433186",
+      "bus2": "84_LVBus0433187",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.743080067097798, 45.99336752089271],
+          [4.743080067097798, 45.99336752089271],
+          [4.743113984338404, 45.99337528500675],
+          [4.74311721894295, 45.99339159802332],
+          [4.743109010262769, 45.99340522992714],
+          [4.743100119124988, 45.9934130256619],
+          [4.743078910942556, 45.99341471149691],
+          [4.743072720938257, 45.993415203664576],
+          [4.743059929254142, 45.99341622378909],
+          [4.743059929254142, 45.99341622378909]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.01048020514968818,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1112777",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433186",
+      "bus2": "84_LVBus0433188",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.743080067097798, 45.99336752089271],
+          [4.743080067097798, 45.99336752089271],
+          [4.743099933133197, 45.99338026551461],
+          [4.743100588836173, 45.993391079879515],
+          [4.743094096912958, 45.993400282586535],
+          [4.743077143472016, 45.99339887122752],
+          [4.743063352304351, 45.99339771641004],
+          [4.743063352304351, 45.99339771641004]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.006833589999420244,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0775842",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433181",
+      "bus2": "84_LVBus0433182",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.743870732579492, 45.993750472102924],
+          [4.743870732579492, 45.993750472102924],
+          [4.743875581303312, 45.99376060286528],
+          [4.743899064456238, 45.993762783801806],
+          [4.743899064456238, 45.993762783801806]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.0030224155845941132,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1186466",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433182",
+      "bus2": "84_LVBus0433184",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.743899064456238, 45.993762783801806],
+          [4.743899064456238, 45.993762783801806],
+          [4.743895166454815, 45.99374548584035],
+          [4.744068628848286, 45.99348800401223],
+          [4.744107411310026, 45.993501271650786],
+          [4.744108460054185, 45.99350162730395],
+          [4.744109220611004, 45.99350189009854],
+          [4.744113206392115, 45.9935032541703],
+          [4.744113206392115, 45.9935032541703]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.037410825618732504,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0840035",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433182",
+      "bus2": "84_LVBus0433183",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.743899064456238, 45.993762783801806],
+          [4.743899064456238, 45.993762783801806],
+          [4.743886174682157, 45.993741582312865],
+          [4.74436399584939, 45.99304150504365],
+          [4.744479585341316, 45.99308317801885],
+          [4.744479585341316, 45.99308317801885]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.09881237046696041,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0883650",
+      "phases": "abcn",
+      "bus1": "84_MVLV154518_LV",
+      "bus2": "84_LVBus0433176",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.742890577701409, 45.99525672614827],
+          [4.742909106231236, 45.99525282026781],
+          [4.742909106231236, 45.99525282026781],
+          [4.742990386376491, 45.995235693600684],
+          [4.742976838642422, 45.9952800882948],
+          [4.742976838642422, 45.9952800882948]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.011623139767669046,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0939661",
+      "phases": "abcn",
+      "bus1": "84_MVLV154518_LV",
+      "bus2": "84_LVBus0433173",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.742890577701409, 45.99525672614827],
+          [4.742880667125485, 45.995245137177015],
+          [4.742880667125485, 45.995245137177015],
+          [4.742842931879062, 45.99520103587296],
+          [4.741768254569839, 45.99504934430886],
+          [4.741335497084638, 45.9951935920414],
+          [4.74119637155306, 45.995643015093876],
+          [4.741240555424758, 45.99564927368055],
+          [4.741240555424758, 45.99564927368055]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.18241163035895508,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1371326",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433173",
+      "bus2": "84_LVBus0433174",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741240555424758, 45.99564927368055],
+          [4.741240555424758, 45.99564927368055],
+          [4.741452009123048, 45.995670867013274],
+          [4.741456304819708, 45.99564103566734],
+          [4.741456454548766, 45.99564003334867],
+          [4.74145696062811, 45.995636557120726],
+          [4.74145696062811, 45.995636557120726]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.020388908854713683,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1765083",
+      "phases": "abcn",
+      "bus1": "84_MVLV034966_LV",
+      "bus2": "84_LVBus0433127",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.740210843795765, 45.99730948725422],
+          [4.740181740025252, 45.99731787563912],
+          [4.740181740025252, 45.99731787563912],
+          [4.739794103203748, 45.997610942807135],
+          [4.739600643858068, 45.997725941780566],
+          [4.739597321098315, 45.99772792083255],
+          [4.739567068148411, 45.997715117901215],
+          [4.739567068148411, 45.997715117901215]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.06708190410981425,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0840051",
+      "phases": "abcn",
+      "bus1": "84_MVLV034966_LV",
+      "bus2": "84_LVBus0433125",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.740210843795765, 45.99730948725422],
+          [4.740224115136183, 45.99729965415007],
+          [4.740224115136183, 45.99729965415007],
+          [4.740260877099606, 45.99727241616547],
+          [4.740238989807142, 45.99725806690702],
+          [4.740234282578057, 45.997254980856944],
+          [4.740234282578057, 45.997254980856944]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.006984908140943239,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0869415",
+      "phases": "abcn",
+      "bus1": "84_MVLV034966_LV",
+      "bus2": "84_LVBus0433123",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.740210843795765, 45.99730948725422],
+          [4.740224952197386, 45.997318736689124],
+          [4.740224952197386, 45.997318736689124],
+          [4.740445913523281, 45.99746359777909],
+          [4.740463492611173, 45.99747512248594],
+          [4.740463492611173, 45.99747512248594]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.025369742049546555,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1744583",
+      "phases": "abcn",
+      "bus1": "84_MVLV034966_LV",
+      "bus2": "84_LVBus0433121",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.740210843795765, 45.99730948725422],
+          [4.740200223480795, 45.99729820121596],
+          [4.740200223480795, 45.99729820121596],
+          [4.740185105644145, 45.99728213244321],
+          [4.739532682548174, 45.99695309674719],
+          [4.73946193686194, 45.997018511383544],
+          [4.739435382150136, 45.99700197615882],
+          [4.739435382150136, 45.99700197615882]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.0763853442419672,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1760122",
+      "phases": "abcn",
+      "bus1": "84_MVLV034966_LV",
+      "bus2": "84_LVBus0433116",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.740210843795765, 45.99730948725422],
+          [4.7401914895953, 45.997309899835685],
+          [4.7401914895953, 45.997309899835685],
+          [4.74015407147359, 45.99731069748379],
+          [4.739591555756014, 45.99702925068601],
+          [4.739591555756014, 45.99702925068601]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.056542843983519976,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1458212",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433116",
+      "bus2": "84_LVBus0433117",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.739591555756014, 45.99702925068601],
+          [4.739591555756014, 45.99702925068601],
+          [4.73936344044027, 45.997216834807936],
+          [4.739034050668636, 45.99739217454826],
+          [4.739034050668636, 45.99739217454826]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.05943978905954548,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1483950",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433117",
+      "bus2": "84_LVBus0433118",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.739034050668636, 45.99739217454826],
+          [4.739034050668636, 45.99739217454826],
+          [4.738925294199458, 45.997444898035596],
+          [4.738756544890235, 45.99748518184429],
+          [4.738756544890235, 45.99748518184429]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.024080796392855104,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1360972",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433118",
+      "bus2": "84_LVBus0433119",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.738756544890235, 45.99748518184429],
+          [4.738756544890235, 45.99748518184429],
+          [4.738607806291041, 45.99752117762568],
+          [4.73859727790577, 45.99752347217035],
+          [4.738599891390103, 45.997527998063745],
+          [4.738599891390103, 45.997527998063745]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.013593998224455206,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1840001",
+      "phases": "abcn",
+      "bus1": "84_MVLV034966_LV",
+      "bus2": "84_LVBus0433111",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.740210843795765, 45.99730948725422],
+          [4.740192866162086, 45.9973044788183],
+          [4.740192866162086, 45.9973044788183],
+          [4.740159852296246, 45.99729527234499],
+          [4.739589161268234, 45.99700409857981],
+          [4.739589161268234, 45.99700409857981]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.057544792042494276,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0941944",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433111",
+      "bus2": "84_LVBus0433112",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.739589161268234, 45.99700409857981],
+          [4.739589161268234, 45.99700409857981],
+          [4.739336068570812, 45.9972111173156],
+          [4.739023097572687, 45.99737800613548],
+          [4.738954415073331, 45.997313761362165],
+          [4.738954415073331, 45.997313761362165]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.06966304713667681,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1340444",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433112",
+      "bus2": "84_LVBus0433113",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.738954415073331, 45.997313761362165],
+          [4.738954415073331, 45.997313761362165],
+          [4.738984328089392, 45.9973185246924],
+          [4.738997033764089, 45.99731375341748],
+          [4.73898976760044, 45.99730119865578],
+          [4.738987252694004, 45.99729685969412],
+          [4.738987252694004, 45.99729685969412]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.005519912311067049,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1135563",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433112",
+      "bus2": "84_LVBus0433114",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.738954415073331, 45.997313761362165],
+          [4.738954415073331, 45.997313761362165],
+          [4.738953992165313, 45.99733357283361],
+          [4.739005427890652, 45.99738738373948],
+          [4.73890659941994, 45.997430894556146],
+          [4.738780122889844, 45.997462392755594],
+          [4.738792181916287, 45.9975000215464],
+          [4.738793588353984, 45.997504411131516],
+          [4.738793588353984, 45.997504411131516]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.033634671278005006,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0715194",
+      "phases": "abcn",
+      "bus1": "84_MVLV034966_LV",
+      "bus2": "84_LVBus0433109",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.740210843795765, 45.99730948725422],
+          [4.740199215789161, 45.99732027544867],
+          [4.740199215789161, 45.99732027544867],
+          [4.740195343955391, 45.997323868423955],
+          [4.740161204882425, 45.99735555103511],
+          [4.740140860719524, 45.99734899983922],
+          [4.740135004805889, 45.99734710841734],
+          [4.740135004805889, 45.99734710841734]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.007139576686201062,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1080758",
+      "phases": "abcn",
+      "bus1": "84_MVLV034966_LV",
+      "bus2": "84_LVBus0433100",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.740210843795765, 45.99730948725422],
+          [4.74020937549591, 45.9972960348724],
+          [4.74020937549591, 45.9972960348724],
+          [4.740206527589232, 45.99726997432365],
+          [4.739630951544437, 45.9969852066918],
+          [4.739630951544437, 45.9969852066918]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.057585814891956855,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1496647",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433100",
+      "bus2": "84_LVBus0433101",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.739630951544437, 45.9969852066918],
+          [4.739630951544437, 45.9969852066918],
+          [4.739702936637159, 45.996889160716925],
+          [4.739782572982988, 45.9967614476891],
+          [4.73986707139025, 45.99656792277817],
+          [4.73986707139025, 45.99656792277817]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.05000692139092404,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1025234",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433101",
+      "bus2": "84_LVBus0433102",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.73986707139025, 45.99656792277817],
+          [4.73986707139025, 45.99656792277817],
+          [4.739962358721408, 45.996267054473584],
+          [4.739962358721408, 45.996267054473584]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.03424689835805984,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1744528",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433102",
+      "bus2": "84_LVBus0433106",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.739962358721408, 45.996267054473584],
+          [4.739962358721408, 45.996267054473584],
+          [4.739968630211511, 45.996268117941355],
+          [4.740075557608312, 45.99628624419524],
+          [4.740075557608312, 45.99628624419524]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.009025019567710216,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1233613",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433102",
+      "bus2": "84_LVBus0433103",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.739962358721408, 45.996267054473584],
+          [4.739962358721408, 45.996267054473584],
+          [4.740093360009281, 45.995808805243605],
+          [4.740113795361322, 45.995737656807314],
+          [4.740172063690717, 45.995534753534784],
+          [4.7402390020923, 45.99530163764963],
+          [4.74027508916684, 45.995299968207796],
+          [4.74027508916684, 45.995299968207796]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.11222829564210277,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1526557",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433103",
+      "bus2": "84_LVBus0433104",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.74027508916684, 45.995299968207796],
+          [4.74027508916684, 45.995299968207796],
+          [4.740248535040309, 45.995283432176606],
+          [4.740321276112951, 45.99502804976667],
+          [4.740465245439795, 45.99495387146859],
+          [4.740489450426105, 45.99496131239141],
+          [4.740493966793346, 45.99496270128351],
+          [4.740495354550933, 45.99496313075249],
+          [4.740495354550933, 45.99496313075249]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.04811819774527269,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1924426",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433104",
+      "bus2": "84_LVBus0433105",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.740495354550933, 45.99496313075249],
+          [4.740495354550933, 45.99496313075249],
+          [4.740488074988673, 45.99494438360187],
+          [4.740527405860358, 45.99484003211353],
+          [4.740119357305573, 45.994782123197076],
+          [4.740138146989511, 45.99473941737267],
+          [4.740138146989511, 45.99473941737267]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.051376441961261544,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0840056",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433101",
+      "bus2": "84_LVBus0433107",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.73986707139025, 45.99656792277817],
+          [4.73986707139025, 45.99656792277817],
+          [4.739980766059591, 45.996584563724305],
+          [4.739990553526191, 45.99658599330102],
+          [4.739990553526191, 45.99658599330102]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.009774518461809581,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1924372",
+      "phases": "abcn",
+      "bus1": "84_MVLV008069_LV",
+      "bus2": "84_LVBus0433087",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.738148080024675, 45.99901177095311],
+          [4.738146020559259, 45.999025190476054],
+          [4.738146020559259, 45.999025190476054],
+          [4.738135010754353, 45.9990966598048],
+          [4.737806116893189, 45.99916577192273],
+          [4.73773077587639, 45.99918537854648],
+          [4.737629007861707, 45.99922084974928],
+          [4.737437714832227, 45.99930593297529],
+          [4.737376062559358, 45.999424260147606],
+          [4.737376062559358, 45.999424260147606]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.08121577574078327,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0672677",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433087",
+      "bus2": "84_LVBus0433092",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.737376062559358, 45.999424260147606],
+          [4.737376062559358, 45.999424260147606],
+          [4.737767992615488, 45.9995312639829],
+          [4.737741849410999, 45.99993026408197],
+          [4.73774133324878, 45.999938232059705],
+          [4.737740882380857, 45.99994503750318],
+          [4.737740394187243, 45.99995246481843],
+          [4.737739735613173, 45.99996248808312],
+          [4.737739303064193, 45.99996912211519],
+          [4.737739118305302, 45.99997197940331],
+          [4.737739118305302, 45.99997197940331]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "T_AL_70",
+      "length": 0.08164414276423923,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1331654",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433092",
+      "bus2": "84_LVBus0433093",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.737739118305302, 45.99997197940331],
+          [4.737739118305302, 45.99997197940331],
+          [4.737677991808887, 45.99997851969436],
+          [4.737606569390507, 45.99996408156033],
+          [4.737580555546458, 45.99996079200254],
+          [4.737542754671516, 45.999959085582915],
+          [4.737515517389712, 45.99995941350552],
+          [4.737510973410219, 45.999959465252616],
+          [4.737495586210411, 45.999959648865435],
+          [4.737489570845182, 45.999959722939835],
+          [4.737486901987682, 45.999956881406874],
+          [4.737486179090345, 45.999954826542684],
+          [4.737486179090345, 45.999954826542684]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.02026661154564246,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0328286",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433087",
+      "bus2": "84_LVBus0433088",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.737376062559358, 45.999424260147606],
+          [4.737376062559358, 45.999424260147606],
+          [4.737371168454156, 45.99942133097491],
+          [4.737265655013709, 45.99922010728556],
+          [4.737151358298997, 45.99922137052841],
+          [4.736282612793849, 45.99923203144154],
+          [4.736282612793849, 45.99923203144154]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "T_AL_70",
+      "length": 0.10047498608318374,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0394064",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433088",
+      "bus2": "84_LVBus0433091",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.736282612793849, 45.99923203144154],
+          [4.736282612793849, 45.99923203144154],
+          [4.735747126940425, 45.9992434263083],
+          [4.735740675302285, 45.999243563580364],
+          [4.735740675302285, 45.999243563580364]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "T_AL_70",
+      "length": 0.042000406827618665,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0036452",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433088",
+      "bus2": "84_LVBus0433089",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.736282612793849, 45.99923203144154],
+          [4.736282612793849, 45.99923203144154],
+          [4.736283193353953, 45.99983509347532],
+          [4.736283193353953, 45.99983509347532]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "T_AL_70",
+      "length": 0.06703114978447446,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0080202",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433089",
+      "bus2": "84_LVBus0433090",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.736283193353953, 45.99983509347532],
+          [4.736283193353953, 45.99983509347532],
+          [4.736286324148198, 46.00068980364166],
+          [4.736287902138246, 46.00112215913983],
+          [4.736287902138246, 46.00112215913983]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "T_AL_70",
+      "length": 0.1430595226522502,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1736858",
+      "phases": "abcn",
+      "bus1": "84_MVLV008069_LV",
+      "bus2": "84_LVBus0433085",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.738148080024675, 45.99901177095311],
+          [4.738154360951771, 45.99902453577872],
+          [4.738154360951771, 45.99902453577872],
+          [4.738190612886179, 45.999098175891646],
+          [4.73861445891264, 45.99907384575629],
+          [4.738629301155967, 45.99979541929051],
+          [4.738627087898069, 45.99979619552893],
+          [4.738574605004028, 45.999814586677914],
+          [4.738574605004028, 45.999814586677914]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.12655229452012037,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1849172",
+      "phases": "abcn",
+      "bus1": "84_MVLV113358_LV",
+      "bus2": "84_LVBus0433166",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.745175787053397, 46.00082464762041],
+          [4.745190410665799, 46.0008103203951],
+          [4.745190410665799, 46.0008103203951],
+          [4.745216478420775, 46.00078807969602],
+          [4.745216478420775, 46.00078807969602]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.003191963074126639,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0394077",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433166",
+      "bus2": "84_LVBus0433167",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.745216478420775, 46.00078807969602],
+          [4.745216478420775, 46.00078807969602],
+          [4.746326136699021, 46.001441576226505],
+          [4.746498977208398, 46.00154347548883],
+          [4.746498977208398, 46.00154347548883]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "T_AL_70",
+      "length": 0.13007366645443355,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1765900",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433167",
+      "bus2": "84_LVBus0433168",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.746498977208398, 46.00154347548883],
+          [4.746498977208398, 46.00154347548883],
+          [4.746340572262929, 46.001465850003605],
+          [4.746466049752441, 46.001382157637984],
+          [4.746532150622023, 46.00141674972987],
+          [4.746540230899882, 46.00141076226234],
+          [4.746544658791328, 46.00140748120394],
+          [4.746544658791328, 46.00140748120394]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.03627151115256556,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0636952",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433167",
+      "bus2": "84_LVBus0433169",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.746498977208398, 46.00154347548883],
+          [4.746498977208398, 46.00154347548883],
+          [4.746498534258409, 46.00153898435627],
+          [4.746475393905059, 46.001300956156385],
+          [4.746453268630082, 46.00107337465836],
+          [4.746451810019709, 46.00105841883672],
+          [4.746451810019709, 46.00105841883672]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "T_AL_70",
+      "length": 0.05403835545083984,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0292209",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433169",
+      "bus2": "84_LVBus0433170",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.746451810019709, 46.00105841883672],
+          [4.746451810019709, 46.00105841883672],
+          [4.746550364684183, 46.000844235295524],
+          [4.746581487569959, 46.00077661020353],
+          [4.74680465318113, 46.000564812731135],
+          [4.747128133562634, 46.00040734384718],
+          [4.747133418813282, 46.00040476453129],
+          [4.747133418813282, 46.00040476453129]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "T_AL_70",
+      "length": 0.0931666675857975,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1555504",
+      "phases": "abcn",
+      "bus1": "84_MVLV113358_LV",
+      "bus2": "84_LVBus0433162",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.745175787053397, 46.00082464762041],
+          [4.745161676886254, 46.00081539875082],
+          [4.745161676886254, 46.00081539875082],
+          [4.745132369262781, 46.000801253805356],
+          [4.745173019716167, 46.00076169837444],
+          [4.745173019716167, 46.00076169837444]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.00816943828340945,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch0036451",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433162",
+      "bus2": "84_LVBus0433163",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.745173019716167, 46.00076169837444],
+          [4.745173019716167, 46.00076169837444],
+          [4.744530053346755, 46.00041822722204],
+          [4.744527527121731, 46.00041687698296],
+          [4.744524934798394, 46.00041549215064],
+          [4.744524934798394, 46.00041549215064]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "T_AL_70",
+      "length": 0.06325406187994076,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1232678",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433163",
+      "bus2": "84_LVBus0433164",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.744524934798394, 46.00041549215064],
+          [4.744524934798394, 46.00041549215064],
+          [4.744156128440179, 46.0002523446762],
+          [4.743474481440247, 46.000023864701035],
+          [4.743004033998456, 45.99989888844312],
+          [4.743121887505861, 45.999702443786504],
+          [4.743124378792181, 45.999698295100096],
+          [4.743124378792181, 45.999698295100096]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.15559728842339315,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1749677",
+      "phases": "abcn",
+      "bus1": "84_MVLV044798_LV",
+      "bus2": "84_LVBus0433136",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741896372886544, 45.9983212208234],
+          [4.741915566873246, 45.99832303465355],
+          [4.741915566873246, 45.99832303465355],
+          [4.741966404526205, 45.99832782789957],
+          [4.742058304836323, 45.99836187190371],
+          [4.742490432484037, 45.99787919276182],
+          [4.742460286656085, 45.99786355294782],
+          [4.742452105884609, 45.99785930794703],
+          [4.742452105884609, 45.99785930794703]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.07897499270166727,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1596472",
+      "phases": "abcn",
+      "bus1": "84_MVLV044798_LV",
+      "bus2": "84_LVBus0433134",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741896372886544, 45.9983212208234],
+          [4.741904109760448, 45.998333594353355],
+          [4.741904109760448, 45.998333594353355],
+          [4.741915818758759, 45.998352309955365],
+          [4.741901006189497, 45.998367927859896],
+          [4.741833457960959, 45.99833257216649],
+          [4.741828302620276, 45.998329873785075],
+          [4.741828302620276, 45.998329873785075]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.011393801226589636,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1371334",
+      "phases": "abcn",
+      "bus1": "84_MVLV044798_LV",
+      "bus2": "84_LVBus0433129",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.741896372886544, 45.9983212208234],
+          [4.741913344400722, 45.998327717645665],
+          [4.741913344400722, 45.998327717645665],
+          [4.742072392207423, 45.99838857476124],
+          [4.742512880752267, 45.99789041524069],
+          [4.742718790672675, 45.997638490270056],
+          [4.742718790672675, 45.997638490270056]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.11132277609574064,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1563498",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433129",
+      "bus2": "84_LVBus0433130",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.742718790672675, 45.997638490270056],
+          [4.742718790672675, 45.997638490270056],
+          [4.742371561475686, 45.997495580589394],
+          [4.742342358738128, 45.99750700502976],
+          [4.742342358738128, 45.99750700502976]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.033833031667775376,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1170188",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433130",
+      "bus2": "84_LVBus0433131",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.742342358738128, 45.99750700502976],
+          [4.742342358738128, 45.99750700502976],
+          [4.742350127308693, 45.99747803565801],
+          [4.742730087346909, 45.99763104829696],
+          [4.742730087346909, 45.99763104829696]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.03727032675999092,
+      "ground": "gnd"
+    },
+    {
+      "id": "84_LVBranch1466811",
+      "phases": "abcn",
+      "bus1": "84_LVBus0433131",
+      "bus2": "84_LVBus0433132",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.742730087346909, 45.99763104829696],
+          [4.742730087346909, 45.99763104829696],
+          [4.742963749600995, 45.99736412879394],
+          [4.743029487869673, 45.99739062930745],
+          [4.743103534862859, 45.997301953969256],
+          [4.74310678664634, 45.99729806808528],
+          [4.74310678664634, 45.99729806808528]
+        ]
+      },
+      "max_loading": 1.0,
+      "params_id": "U_AL_150_lv",
+      "length": 0.052541461213737775,
+      "ground": "gnd"
+    }
+  ],
+  "transformers": [
+    {
+      "id": "84_MVLV065352_Transformer",
+      "phases_hv": "abc",
+      "phases_lv": "abcn",
+      "bus_hv": "84_MVLV065352",
+      "bus_lv": "84_MVLV065352_LV",
+      "connect_neutral_hv": null,
+      "connect_neutral_lv": null,
+      "max_loading": 1.1,
+      "params_id": "FT_Standard_Standard_630kVA",
+      "tap": 1.0
+    },
+    {
+      "id": "84_MVLV015641_Transformer",
+      "phases_hv": "abc",
+      "phases_lv": "abcn",
+      "bus_hv": "84_MVLV015641",
+      "bus_lv": "84_MVLV015641_LV",
+      "connect_neutral_hv": null,
+      "connect_neutral_lv": null,
+      "max_loading": 1.1,
+      "params_id": "FT_Standard_Standard_160kVA",
+      "tap": 1.0
+    },
+    {
+      "id": "84_MVLV154518_Transformer",
+      "phases_hv": "abc",
+      "phases_lv": "abcn",
+      "bus_hv": "84_MVLV154518",
+      "bus_lv": "84_MVLV154518_LV",
+      "connect_neutral_hv": null,
+      "connect_neutral_lv": null,
+      "max_loading": 1.1,
+      "params_id": "FT_Standard_Standard_1000kVA",
+      "tap": 1.0
+    },
+    {
+      "id": "84_MVLV034966_Transformer",
+      "phases_hv": "abc",
+      "phases_lv": "abcn",
+      "bus_hv": "84_MVLV034966",
+      "bus_lv": "84_MVLV034966_LV",
+      "connect_neutral_hv": null,
+      "connect_neutral_lv": null,
+      "max_loading": 1.1,
+      "params_id": "FT_Standard_Standard_630kVA",
+      "tap": 1.0
+    },
+    {
+      "id": "84_MVLV008069_Transformer",
+      "phases_hv": "abc",
+      "phases_lv": "abcn",
+      "bus_hv": "84_MVLV008069",
+      "bus_lv": "84_MVLV008069_LV",
+      "connect_neutral_hv": null,
+      "connect_neutral_lv": null,
+      "max_loading": 1.1,
+      "params_id": "FT_Standard_Standard_160kVA",
+      "tap": 1.0
+    },
+    {
+      "id": "84_MVLV113358_Transformer",
+      "phases_hv": "abc",
+      "phases_lv": "abcn",
+      "bus_hv": "84_MVLV113358",
+      "bus_lv": "84_MVLV113358_LV",
+      "connect_neutral_hv": null,
+      "connect_neutral_lv": null,
+      "max_loading": 1.1,
+      "params_id": "FT_Standard_Standard_400kVA",
+      "tap": 1.0
+    },
+    {
+      "id": "84_MVLV044798_Transformer",
+      "phases_hv": "abc",
+      "phases_lv": "abcn",
+      "bus_hv": "84_MVLV044798",
+      "bus_lv": "84_MVLV044798_LV",
+      "connect_neutral_hv": null,
+      "connect_neutral_lv": null,
+      "max_loading": 1.1,
+      "params_id": "FT_Standard_Standard_160kVA",
+      "tap": 1.0
+    }
+  ],
+  "switches": [
+    {
+      "id": "switch",
+      "phases": "abc",
+      "bus1": "MVVoltage_source",
+      "bus2": "84_JOUX"
+    }
+  ],
+  "loads": [
+    {
+      "id": "84_MVLV035099_consumption",
+      "bus": "84_MVLV035099",
+      "phases": "abc",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_MVLV035099_production",
+      "bus": "84_MVLV035099",
+      "phases": "abc",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_MVLV023242_consumption",
+      "bus": "84_MVLV023242",
+      "phases": "abc",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_MVLV023242_production",
+      "bus": "84_MVLV023242",
+      "phases": "abc",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_MVLV143067_consumption",
+      "bus": "84_MVLV143067",
+      "phases": "abc",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_MVLV143067_production",
+      "bus": "84_MVLV143067",
+      "phases": "abc",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_MVLV057492_consumption",
+      "bus": "84_MVLV057492",
+      "phases": "abc",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [102303.06982516997, 30690.92094755099],
+        [102303.06982516997, 30690.92094755099],
+        [102303.06982516997, 30690.92094755099]
+      ]
+    },
+    {
+      "id": "84_MVLV057492_production",
+      "bus": "84_MVLV057492",
+      "phases": "abc",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433160_consumption",
+      "bus": "84_LVBus0433160",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [15352.297677482064, 4605.689303244619],
+        [15352.297677482064, 4605.689303244619],
+        [15352.297677482064, 4605.689303244619]
+      ]
+    },
+    {
+      "id": "84_LVBus0433160_production",
+      "bus": "84_LVBus0433160",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433152_consumption",
+      "bus": "84_LVBus0433152",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433152_production",
+      "bus": "84_LVBus0433152",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433153_consumption",
+      "bus": "84_LVBus0433153",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433153_production",
+      "bus": "84_LVBus0433153",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433154_consumption",
+      "bus": "84_LVBus0433154",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433154_production",
+      "bus": "84_LVBus0433154",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433155_consumption",
+      "bus": "84_LVBus0433155",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433155_production",
+      "bus": "84_LVBus0433155",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433158_consumption",
+      "bus": "84_LVBus0433158",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [19126.126673956824, 5737.838002187047],
+        [19126.126673956824, 5737.838002187047],
+        [19126.126673956824, 5737.838002187047]
+      ]
+    },
+    {
+      "id": "84_LVBus0433158_production",
+      "bus": "84_LVBus0433158",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433156_consumption",
+      "bus": "84_LVBus0433156",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [8524.052054877066, 2557.2156164631197],
+        [8524.052054877066, 2557.2156164631197],
+        [8524.052054877066, 2557.2156164631197]
+      ]
+    },
+    {
+      "id": "84_LVBus0433156_production",
+      "bus": "84_LVBus0433156",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433157_consumption",
+      "bus": "84_LVBus0433157",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433157_production",
+      "bus": "84_LVBus0433157",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433150_consumption",
+      "bus": "84_LVBus0433150",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [15898.380513477936, 4769.514154043381],
+        [15898.380513477936, 4769.514154043381],
+        [15898.380513477936, 4769.514154043381]
+      ]
+    },
+    {
+      "id": "84_LVBus0433150_production",
+      "bus": "84_LVBus0433150",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433142_consumption",
+      "bus": "84_LVBus0433142",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433142_production",
+      "bus": "84_LVBus0433142",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433146_consumption",
+      "bus": "84_LVBus0433146",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433146_production",
+      "bus": "84_LVBus0433146",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433147_consumption",
+      "bus": "84_LVBus0433147",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433147_production",
+      "bus": "84_LVBus0433147",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433148_consumption",
+      "bus": "84_LVBus0433148",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433148_production",
+      "bus": "84_LVBus0433148",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433143_consumption",
+      "bus": "84_LVBus0433143",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433143_production",
+      "bus": "84_LVBus0433143",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433144_consumption",
+      "bus": "84_LVBus0433144",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [9664.124786417306, 2899.2374359251917],
+        [9664.124786417306, 2899.2374359251917],
+        [9664.124786417306, 2899.2374359251917]
+      ]
+    },
+    {
+      "id": "84_LVBus0433144_production",
+      "bus": "84_LVBus0433144",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433145_consumption",
+      "bus": "84_LVBus0433145",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433145_production",
+      "bus": "84_LVBus0433145",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433140_consumption",
+      "bus": "84_LVBus0433140",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [39195.77044801736, 11758.731134405209],
+        [39195.77044801736, 11758.731134405209],
+        [39195.77044801736, 11758.731134405209]
+      ]
+    },
+    {
+      "id": "84_LVBus0433140_production",
+      "bus": "84_LVBus0433140",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433138_consumption",
+      "bus": "84_LVBus0433138",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433138_production",
+      "bus": "84_LVBus0433138",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433098_consumption",
+      "bus": "84_LVBus0433098",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433098_production",
+      "bus": "84_LVBus0433098",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433095_consumption",
+      "bus": "84_LVBus0433095",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433095_production",
+      "bus": "84_LVBus0433095",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433096_consumption",
+      "bus": "84_LVBus0433096",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433096_production",
+      "bus": "84_LVBus0433096",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433202_consumption",
+      "bus": "84_LVBus0433202",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433202_production",
+      "bus": "84_LVBus0433202",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433197_consumption",
+      "bus": "84_LVBus0433197",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433197_production",
+      "bus": "84_LVBus0433197",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433198_consumption",
+      "bus": "84_LVBus0433198",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433198_production",
+      "bus": "84_LVBus0433198",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433200_consumption",
+      "bus": "84_LVBus0433200",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [14186.645578535752, 4255.993673560725],
+        [14186.645578535752, 4255.993673560725],
+        [14186.645578535752, 4255.993673560725]
+      ]
+    },
+    {
+      "id": "84_LVBus0433200_production",
+      "bus": "84_LVBus0433200",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433199_consumption",
+      "bus": "84_LVBus0433199",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [48523.18227649036, 14556.95468294711],
+        [48523.18227649036, 14556.95468294711],
+        [48523.18227649036, 14556.95468294711]
+      ]
+    },
+    {
+      "id": "84_LVBus0433199_production",
+      "bus": "84_LVBus0433199",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433195_consumption",
+      "bus": "84_LVBus0433195",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433195_production",
+      "bus": "84_LVBus0433195",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433192_consumption",
+      "bus": "84_LVBus0433192",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433192_production",
+      "bus": "84_LVBus0433192",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433193_consumption",
+      "bus": "84_LVBus0433193",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [9709.174718408498, 2912.752415522549],
+        [9709.174718408498, 2912.752415522549],
+        [9709.174718408498, 2912.752415522549]
+      ]
+    },
+    {
+      "id": "84_LVBus0433193_production",
+      "bus": "84_LVBus0433193",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433178_consumption",
+      "bus": "84_LVBus0433178",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433178_production",
+      "bus": "84_LVBus0433178",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433179_consumption",
+      "bus": "84_LVBus0433179",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [15429.466967766815, 4628.840090330044],
+        [15429.466967766815, 4628.840090330044],
+        [15429.466967766815, 4628.840090330044]
+      ]
+    },
+    {
+      "id": "84_LVBus0433179_production",
+      "bus": "84_LVBus0433179",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433180_consumption",
+      "bus": "84_LVBus0433180",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433180_production",
+      "bus": "84_LVBus0433180",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433189_consumption",
+      "bus": "84_LVBus0433189",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433189_production",
+      "bus": "84_LVBus0433189",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433190_consumption",
+      "bus": "84_LVBus0433190",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433190_production",
+      "bus": "84_LVBus0433190",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433181_consumption",
+      "bus": "84_LVBus0433181",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433181_production",
+      "bus": "84_LVBus0433181",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433185_consumption",
+      "bus": "84_LVBus0433185",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433185_production",
+      "bus": "84_LVBus0433185",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433186_consumption",
+      "bus": "84_LVBus0433186",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433186_production",
+      "bus": "84_LVBus0433186",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433187_consumption",
+      "bus": "84_LVBus0433187",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433187_production",
+      "bus": "84_LVBus0433187",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433188_consumption",
+      "bus": "84_LVBus0433188",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [20200.58093142181, 6060.174279426543],
+        [20200.58093142181, 6060.174279426543],
+        [20200.58093142181, 6060.174279426543]
+      ]
+    },
+    {
+      "id": "84_LVBus0433188_production",
+      "bus": "84_LVBus0433188",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433182_consumption",
+      "bus": "84_LVBus0433182",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433182_production",
+      "bus": "84_LVBus0433182",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433184_consumption",
+      "bus": "84_LVBus0433184",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433184_production",
+      "bus": "84_LVBus0433184",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433183_consumption",
+      "bus": "84_LVBus0433183",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [27203.744914660798, 8161.123474398239],
+        [27203.744914660798, 8161.123474398239],
+        [27203.744914660798, 8161.123474398239]
+      ]
+    },
+    {
+      "id": "84_LVBus0433183_production",
+      "bus": "84_LVBus0433183",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433176_consumption",
+      "bus": "84_LVBus0433176",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433176_production",
+      "bus": "84_LVBus0433176",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433173_consumption",
+      "bus": "84_LVBus0433173",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433173_production",
+      "bus": "84_LVBus0433173",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433174_consumption",
+      "bus": "84_LVBus0433174",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [14756.641803038654, 4426.992540911596],
+        [14756.641803038654, 4426.992540911596],
+        [14756.641803038654, 4426.992540911596]
+      ]
+    },
+    {
+      "id": "84_LVBus0433174_production",
+      "bus": "84_LVBus0433174",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433127_consumption",
+      "bus": "84_LVBus0433127",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433127_production",
+      "bus": "84_LVBus0433127",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433125_consumption",
+      "bus": "84_LVBus0433125",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [2396.977213040755, 719.0931639122265],
+        [2396.977213040755, 719.0931639122265],
+        [2396.977213040755, 719.0931639122265]
+      ]
+    },
+    {
+      "id": "84_LVBus0433125_production",
+      "bus": "84_LVBus0433125",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433123_consumption",
+      "bus": "84_LVBus0433123",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [3333.961872894218, 1000.1885618682653],
+        [3333.961872894218, 1000.1885618682653],
+        [3333.961872894218, 1000.1885618682653]
+      ]
+    },
+    {
+      "id": "84_LVBus0433123_production",
+      "bus": "84_LVBus0433123",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433121_consumption",
+      "bus": "84_LVBus0433121",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [21350.29783761814, 6405.089351285443],
+        [21350.29783761814, 6405.089351285443],
+        [21350.29783761814, 6405.089351285443]
+      ]
+    },
+    {
+      "id": "84_LVBus0433121_production",
+      "bus": "84_LVBus0433121",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433116_consumption",
+      "bus": "84_LVBus0433116",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433116_production",
+      "bus": "84_LVBus0433116",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433117_consumption",
+      "bus": "84_LVBus0433117",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [14305.06484673471, 4291.519454020413],
+        [14305.06484673471, 4291.519454020413],
+        [14305.06484673471, 4291.519454020413]
+      ]
+    },
+    {
+      "id": "84_LVBus0433117_production",
+      "bus": "84_LVBus0433117",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433118_consumption",
+      "bus": "84_LVBus0433118",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433118_production",
+      "bus": "84_LVBus0433118",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433119_consumption",
+      "bus": "84_LVBus0433119",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [6427.247426774113, 1928.1742280322337],
+        [6427.247426774113, 1928.1742280322337],
+        [6427.247426774113, 1928.1742280322337]
+      ]
+    },
+    {
+      "id": "84_LVBus0433119_production",
+      "bus": "84_LVBus0433119",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433111_consumption",
+      "bus": "84_LVBus0433111",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433111_production",
+      "bus": "84_LVBus0433111",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433112_consumption",
+      "bus": "84_LVBus0433112",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433112_production",
+      "bus": "84_LVBus0433112",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433113_consumption",
+      "bus": "84_LVBus0433113",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433113_production",
+      "bus": "84_LVBus0433113",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433114_consumption",
+      "bus": "84_LVBus0433114",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433114_production",
+      "bus": "84_LVBus0433114",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433109_consumption",
+      "bus": "84_LVBus0433109",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433109_production",
+      "bus": "84_LVBus0433109",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433100_consumption",
+      "bus": "84_LVBus0433100",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [1438.0376061204379, 431.41128183613137],
+        [1438.0376061204379, 431.41128183613137],
+        [1438.0376061204379, 431.41128183613137]
+      ]
+    },
+    {
+      "id": "84_LVBus0433100_production",
+      "bus": "84_LVBus0433100",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433101_consumption",
+      "bus": "84_LVBus0433101",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433101_production",
+      "bus": "84_LVBus0433101",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433102_consumption",
+      "bus": "84_LVBus0433102",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [2856.693039715577, 857.0079119146731],
+        [2856.693039715577, 857.0079119146731],
+        [2856.693039715577, 857.0079119146731]
+      ]
+    },
+    {
+      "id": "84_LVBus0433102_production",
+      "bus": "84_LVBus0433102",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433106_consumption",
+      "bus": "84_LVBus0433106",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [17292.77836544735, 5187.833509634204],
+        [17292.77836544735, 5187.833509634204],
+        [17292.77836544735, 5187.833509634204]
+      ]
+    },
+    {
+      "id": "84_LVBus0433106_production",
+      "bus": "84_LVBus0433106",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433103_consumption",
+      "bus": "84_LVBus0433103",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433103_production",
+      "bus": "84_LVBus0433103",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433104_consumption",
+      "bus": "84_LVBus0433104",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [5281.168194783496, 1584.3504584350487],
+        [5281.168194783496, 1584.3504584350487],
+        [5281.168194783496, 1584.3504584350487]
+      ]
+    },
+    {
+      "id": "84_LVBus0433104_production",
+      "bus": "84_LVBus0433104",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433105_consumption",
+      "bus": "84_LVBus0433105",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433105_production",
+      "bus": "84_LVBus0433105",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433107_consumption",
+      "bus": "84_LVBus0433107",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [7632.751867127525, 2289.8255601382575],
+        [7632.751867127525, 2289.8255601382575],
+        [7632.751867127525, 2289.8255601382575]
+      ]
+    },
+    {
+      "id": "84_LVBus0433107_production",
+      "bus": "84_LVBus0433107",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433087_consumption",
+      "bus": "84_LVBus0433087",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [1017.1461602362504, 305.1438480708751],
+        [2501.899828146319, 750.5699484438957],
+        [1778.881407733768, 533.6644223201304]
+      ]
+    },
+    {
+      "id": "84_LVBus0433087_production",
+      "bus": "84_LVBus0433087",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433092_consumption",
+      "bus": "84_LVBus0433092",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [5591.587549245598, 1677.4762647736793],
+        [4710.526669405337, 1413.158000821601],
+        [15601.109312480901, 4680.33279374427]
+      ]
+    },
+    {
+      "id": "84_LVBus0433092_production",
+      "bus": "84_LVBus0433092",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433093_consumption",
+      "bus": "84_LVBus0433093",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [8763.211087398875, 2628.9633262196626],
+        [8763.211087398875, 2628.9633262196626],
+        [8763.211087398875, 2628.9633262196626]
+      ]
+    },
+    {
+      "id": "84_LVBus0433093_production",
+      "bus": "84_LVBus0433093",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433088_consumption",
+      "bus": "84_LVBus0433088",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433088_production",
+      "bus": "84_LVBus0433088",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433091_consumption",
+      "bus": "84_LVBus0433091",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [2397.565496813353, 719.2696490440059],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433091_production",
+      "bus": "84_LVBus0433091",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433089_consumption",
+      "bus": "84_LVBus0433089",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433089_production",
+      "bus": "84_LVBus0433089",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433090_consumption",
+      "bus": "84_LVBus0433090",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [3794.8340152650485, 1138.4502045795145],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433090_production",
+      "bus": "84_LVBus0433090",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433085_consumption",
+      "bus": "84_LVBus0433085",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [6781.788093022369, 2034.5364279067107],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433085_production",
+      "bus": "84_LVBus0433085",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433166_consumption",
+      "bus": "84_LVBus0433166",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [38903.25605336832, 11670.976816010496],
+        [38903.25605336832, 11670.976816010496],
+        [38903.25605336832, 11670.976816010496]
+      ]
+    },
+    {
+      "id": "84_LVBus0433166_production",
+      "bus": "84_LVBus0433166",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433167_consumption",
+      "bus": "84_LVBus0433167",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [2601.824735556425, 780.5474206669275],
+        [2601.824735556425, 780.5474206669275],
+        [2601.824735556425, 780.5474206669275]
+      ]
+    },
+    {
+      "id": "84_LVBus0433167_production",
+      "bus": "84_LVBus0433167",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433168_consumption",
+      "bus": "84_LVBus0433168",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [2039.631468095584, 611.8894404286752],
+        [2039.631468095584, 611.8894404286752],
+        [2039.631468095584, 611.8894404286752]
+      ]
+    },
+    {
+      "id": "84_LVBus0433168_production",
+      "bus": "84_LVBus0433168",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433169_consumption",
+      "bus": "84_LVBus0433169",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [514.2975426301231, 154.2892627890369],
+        [5338.098885563765, 1601.4296656691295],
+        [6348.412604361072, 1904.5237813083215]
+      ]
+    },
+    {
+      "id": "84_LVBus0433169_production",
+      "bus": "84_LVBus0433169",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433170_consumption",
+      "bus": "84_LVBus0433170",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [17750.68272658377, 5325.204817975131],
+        [20247.526069127318, 6074.257820738195],
+        [18814.697334120137, 5644.409200236041]
+      ]
+    },
+    {
+      "id": "84_LVBus0433170_production",
+      "bus": "84_LVBus0433170",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433162_consumption",
+      "bus": "84_LVBus0433162",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433162_production",
+      "bus": "84_LVBus0433162",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433163_consumption",
+      "bus": "84_LVBus0433163",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [1390.9430883812045, 417.28292651436135],
+        [951.5549130342716, 285.4664739102815]
+      ]
+    },
+    {
+      "id": "84_LVBus0433163_production",
+      "bus": "84_LVBus0433163",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433164_consumption",
+      "bus": "84_LVBus0433164",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433164_production",
+      "bus": "84_LVBus0433164",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433136_consumption",
+      "bus": "84_LVBus0433136",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433136_production",
+      "bus": "84_LVBus0433136",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433134_consumption",
+      "bus": "84_LVBus0433134",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433134_production",
+      "bus": "84_LVBus0433134",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433129_consumption",
+      "bus": "84_LVBus0433129",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433129_production",
+      "bus": "84_LVBus0433129",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433130_consumption",
+      "bus": "84_LVBus0433130",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433130_production",
+      "bus": "84_LVBus0433130",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433131_consumption",
+      "bus": "84_LVBus0433131",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433131_production",
+      "bus": "84_LVBus0433131",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433132_consumption",
+      "bus": "84_LVBus0433132",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    },
+    {
+      "id": "84_LVBus0433132_production",
+      "bus": "84_LVBus0433132",
+      "phases": "abcn",
+      "type": "power",
+      "connect_neutral": null,
+      "powers": [
+        [0.0, 0.0],
+        [0.0, 0.0],
+        [0.0, 0.0]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "vs",
+      "bus": "MVVoltage_source",
+      "phases": "abcn",
+      "type": "voltage",
+      "connect_neutral": null,
+      "voltages": [
+        [11777.945491468367, 0.0],
+        [-5888.97274573418, -10200.0],
+        [-5888.97274573418, 10200.0]
+      ]
+    }
+  ],
+  "lines_params": [
+    {
+      "id": "O_AM_148",
+      "z_line": [
+        [
+          [0.2430129333, 0.0, 0.0],
+          [0.0, 0.2430129333, 0.0],
+          [0.0, 0.0, 0.2430129333]
+        ],
+        [
+          [0.3287057245, 0.0, 0.0],
+          [0.0, 0.3287057245, 0.0],
+          [0.0, 0.0, 0.3287057245]
+        ]
+      ],
+      "y_shunt": [
+        [
+          [0.0, 0.0, 0.0],
+          [0.0, 0.0, 0.0],
+          [0.0, 0.0, 0.0]
+        ],
+        [
+          [3.5036e-6, 0.0, 0.0],
+          [0.0, 3.5036e-6, 0.0],
+          [0.0, 0.0, 3.5036e-6]
+        ]
+      ],
+      "ampacities": [357.0, 357.0, 357.0],
+      "line_type": "OVERHEAD",
+      "materials": ["AAAC", "AAAC", "AAAC"],
+      "sections": [148.0, 148.0, 148.0]
+    },
+    {
+      "id": "T_AL_70",
+      "z_line": [
+        [
+          [0.4037714285714286, 0.0, 0.0, 0.0],
+          [0.0, 0.4037714285714286, 0.0, 0.0],
+          [0.0, 0.0, 0.4037714285714286, 0.0],
+          [0.0, 0.0, 0.0, 0.7066]
+        ],
+        [
+          [0.3522273637895779, 0.2548374536831139, 0.25483745368311206, 0.289351376654132],
+          [0.2548374536831139, 0.3522273637895779, 0.25483745368311206, 0.289351376654132],
+          [0.25483745368311206, 0.25483745368311206, 0.3522273637895779, 0.2893513766541358],
+          [0.289351376654132, 0.289351376654132, 0.2893513766541358, 0.3698082122812564]
+        ]
+      ],
+      "y_shunt": [
+        [
+          [8.781378896642583e-8, -0.0, -0.0, -0.0],
+          [-0.0, 8.78137889664258e-8, -0.0, -0.0],
+          [-0.0, -0.0, 8.781650430080775e-8, -0.0],
+          [-0.0, -0.0, -0.0, 1.543729345444604e-7]
+        ],
+        [
+          [3.249101321068935e-5, -2.0282388553771083e-6, -2.027732015397362e-6, -6.481595098308424e-6],
+          [-2.0282388553771032e-6, 3.2491013210689335e-5, -2.0277320153973612e-6, -6.481595098308425e-6],
+          [-2.0277320153973633e-6, -2.02773201539736e-6, 3.2491356407188983e-5, -6.4817663011923205e-6],
+          [-6.481595098308427e-6, -6.48159509830842e-6, -6.48176630119232e-6, 5.8038190133924266e-5]
+        ]
+      ],
+      "ampacities": [187.0, 187.0, 187.0, 187.0],
+      "line_type": "TWISTED",
+      "materials": ["AAC", "AAC", "AAC", "AAC"],
+      "insulators": ["XLPE", "XLPE", "XLPE", "XLPE"],
+      "sections": [70.0, 70.0, 70.0, 70.0]
+    },
+    {
+      "id": "U_AL_150",
+      "z_line": [
+        [
+          [0.206, 0.0, 0.0],
+          [0.0, 0.206, 0.0],
+          [0.0, 0.0, 0.206]
+        ],
+        [
+          [0.0960502777, 0.0, 0.0],
+          [0.0, 0.0960502777, 0.0],
+          [0.0, 0.0, 0.0960502777]
+        ]
+      ],
+      "y_shunt": [
+        [
+          [0.0, 0.0, 0.0],
+          [0.0, 0.0, 0.0],
+          [0.0, 0.0, 0.0]
+        ],
+        [
+          [3.41234e-5, 0.0, 0.0],
+          [0.0, 3.41234e-5, 0.0],
+          [0.0, 0.0, 3.41234e-5]
+        ]
+      ],
+      "ampacities": [325.0, 325.0, 325.0],
+      "line_type": "UNDERGROUND",
+      "materials": ["AAC", "AAC", "AAC"],
+      "sections": [150.0, 150.0, 150.0]
+    },
+    {
+      "id": "U_AL_150_lv",
+      "z_line": [
+        [
+          [0.1884266666666667, 0.0, 0.0, 0.0],
+          [0.0, 0.1884266666666667, 0.0, 0.0],
+          [0.0, 0.0, 0.1884266666666667, 0.0],
+          [0.0, 0.0, 0.0, 0.4037714285714286]
+        ],
+        [
+          [0.32828402789137306, 0.23241381875588726, 0.2106379578409967, 0.2324138187558867],
+          [0.23241381875588726, 0.32828402789137306, 0.2324138187558867, 0.2106379578409967],
+          [0.2106379578409967, 0.2324138187558867, 0.32828402789137306, 0.23241381875588726],
+          [0.2324138187558867, 0.2106379578409967, 0.23241381875588726, 0.3522273637895779]
+        ]
+      ],
+      "y_shunt": [
+        [
+          [2.2218695224038782e-5, -0.0, -0.0, -0.0],
+          [-0.0, 2.293336632682387e-5, -0.0, -0.0],
+          [-0.0, -0.0, 2.2218695224038755e-5, -0.0],
+          [-0.0, -0.0, -0.0, 1.6981083006353736e-5]
+        ],
+        [
+          [0.00031402428602920205, -4.196259266854416e-5, -2.0115814893727624e-5, -2.9758926226542447e-5],
+          [-4.196259266854417e-5, 0.00032559035273286213, -4.196259266854337e-5, -1.2331504127535857e-5],
+          [-2.011581489372763e-5, -4.196259266854337e-5, 0.00031402428602920156, -2.975892622654305e-5],
+          [-2.9758926226542447e-5, -1.2331504127535853e-5, -2.975892622654305e-5, 0.00024166018664415872]
+        ]
+      ],
+      "ampacities": [325.0, 325.0, 325.0, 325.0],
+      "line_type": "UNDERGROUND",
+      "materials": ["AAC", "AAC", "AAC", "AAC"],
+      "insulators": ["PVC", "PVC", "PVC", "PVC"],
+      "sections": [150.0, 150.0, 150.0, 150.0]
+    }
+  ],
+  "transformers_params": [
+    {
+      "id": "FT_Standard_Standard_1000kVA",
+      "vg": "Dyn11",
+      "sn": 1000000,
+      "uhv": 20000,
+      "ulv": 400,
+      "z2": [0.0020800000000000003, 0.00937195817318878],
+      "ym": [1.225e-6, -1.996244912329146e-5],
+      "i0": 0.024,
+      "p0": 1470,
+      "psc": 13000,
+      "vsc": 0.06
+    },
+    {
+      "id": "FT_Standard_Standard_160kVA",
+      "vg": "Dyn11",
+      "sn": 160000,
+      "uhv": 20000,
+      "ulv": 400,
+      "z2": [0.014687500000000001, 0.037205877811845804],
+      "ym": [3.8333333333333335e-7, -3.0426140077242796e-6],
+      "i0": 0.023,
+      "p0": 460,
+      "psc": 2350,
+      "vsc": 0.04
+    },
+    {
+      "id": "FT_Standard_Standard_400kVA",
+      "vg": "Dyn11",
+      "sn": 400000,
+      "uhv": 20000,
+      "ulv": 400,
+      "z2": [0.0046, 0.015324490203592419],
+      "ym": [7.750000000000001e-7, -6.28573671983731e-6],
+      "i0": 0.019,
+      "p0": 930,
+      "psc": 4600,
+      "vsc": 0.04
+    },
+    {
+      "id": "FT_Standard_Standard_630kVA",
+      "vg": "Dyn11",
+      "sn": 630000,
+      "uhv": 20000,
+      "ulv": 400,
+      "z2": [0.0026203073822121444, 0.009814977720841663],
+      "ym": [1.0833333333333335e-6, -9.387698806890263e-6],
+      "i0": 0.018,
+      "p0": 1300,
+      "psc": 6500,
+      "vsc": 0.04
+    }
+  ],
+  "ground_connections": [
+    {
+      "id": "1",
+      "ground": "gnd",
+      "element": {
+        "id": "MVVoltage_source",
+        "type": "bus"
+      },
+      "phase": "n",
+      "impedance": [0.0, 0.0],
+      "side": null,
+      "on_connected": "raise"
+    },
+    {
+      "id": "2",
+      "ground": "gnd",
+      "element": {
+        "id": "84_MVLV008069_LV",
+        "type": "bus"
+      },
+      "phase": "n",
+      "impedance": [0.0, 0.0],
+      "side": null,
+      "on_connected": "raise"
+    },
+    {
+      "id": "3",
+      "ground": "gnd",
+      "element": {
+        "id": "84_MVLV015641_LV",
+        "type": "bus"
+      },
+      "phase": "n",
+      "impedance": [0.0, 0.0],
+      "side": null,
+      "on_connected": "raise"
+    },
+    {
+      "id": "4",
+      "ground": "gnd",
+      "element": {
+        "id": "84_MVLV034966_LV",
+        "type": "bus"
+      },
+      "phase": "n",
+      "impedance": [0.0, 0.0],
+      "side": null,
+      "on_connected": "raise"
+    },
+    {
+      "id": "5",
+      "ground": "gnd",
+      "element": {
+        "id": "84_MVLV044798_LV",
+        "type": "bus"
+      },
+      "phase": "n",
+      "impedance": [0.0, 0.0],
+      "side": null,
+      "on_connected": "raise"
+    },
+    {
+      "id": "6",
+      "ground": "gnd",
+      "element": {
+        "id": "84_MVLV065352_LV",
+        "type": "bus"
+      },
+      "phase": "n",
+      "impedance": [0.0, 0.0],
+      "side": null,
+      "on_connected": "raise"
+    },
+    {
+      "id": "7",
+      "ground": "gnd",
+      "element": {
+        "id": "84_MVLV113358_LV",
+        "type": "bus"
+      },
+      "phase": "n",
+      "impedance": [0.0, 0.0],
+      "side": null,
+      "on_connected": "raise"
+    },
+    {
+      "id": "8",
+      "ground": "gnd",
+      "element": {
+        "id": "84_MVLV154518_LV",
+        "type": "bus"
+      },
+      "phase": "n",
+      "impedance": [0.0, 0.0],
+      "side": null,
+      "on_connected": "raise"
+    }
+  ]
+}

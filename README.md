@@ -118,6 +118,8 @@ The total cluster size is 24135, so the network `11_MVFeeder0725` represents 1.3
 
 The `scripts/` folder contains two scripts:
 
+- `update_networks.py`: Updates network files located in the directory `data/networks` to the latest _Roseau Load Flow_
+  JSON format.
 - `convert_networks.py`: Downloads network files in their original format and converts them to the latest _Roseau Load
   Flow_ JSON format.
 - `plot_networks.py`: Plots the networks using the folium library and generates regional maps showing all networks
@@ -126,6 +128,7 @@ The `scripts/` folder contains two scripts:
 To run these scripts:
 
 ```bash
+uv run scripts/update_networks.py
 uv run scripts/convert_networks.py
 uv run scripts/plot_networks.py
 ```

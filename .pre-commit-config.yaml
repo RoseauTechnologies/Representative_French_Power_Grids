@@ -1,29 +1,58 @@
 exclude: ^.idea/|^doc/
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
-      - id: check-builtin-literals
-      - id: check-yaml
       - id: check-json
+      - id: check-merge-conflict
+      - id: check-toml
+      - id: check-yaml
+      - id: detect-private-key
       - id: end-of-file-fixer
       - id: trailing-whitespace
-      - id: check-toml
-      - id: detect-private-key
-      - id: check-merge-conflict
   - repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.6.13
+    rev: 0.8.15
     hooks:
       - id: uv-lock
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.11.4
+    rev: v0.12.12
     hooks:
-      - id: ruff
+      - id: ruff-check
         args: [--fix]
       - id: ruff-format
+  - repo: https://github.com/adhtruong/mirrors-typos
+    # Cf: https://github.com/crate-ci/typos/issues/390
+    rev: v1.36.2
+    hooks:
+      - id: typos
+        args: [--force-exclude]
+  - repo: https://github.com/executablebooks/mdformat
+    rev: 0.7.22
+    hooks:
+      - id: mdformat
+        additional_dependencies:
+          - mdformat-pyproject
+          - mdformat-myst
+          - mdformat-gfm
+          - mdformat-gfm-alerts
+          - mdformat-ruff
+          - mdformat-config
+          - mdformat-deflist
   - repo: https://github.com/rbubley/mirrors-prettier
-    rev: v3.5.3
+    rev: v3.6.2
     hooks:
       - id: prettier
         args: ["--print-width", "120"]
         require_serial: true
+        types_or: [yaml]
+  - repo: https://github.com/biomejs/pre-commit
+    rev: v2.2.3
+    hooks:
+      - id: biome-check
+        types_or: [json, html, css]
+        files: ".*" # Override default files regex that excludes html, rely on `types_or` instead
+  - repo: https://github.com/tombi-toml/tombi-pre-commit
+    rev: v0.5.18
+    hooks:
+      - id: tombi-format
+      - id: tombi-lint

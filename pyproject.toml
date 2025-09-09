@@ -5,26 +5,60 @@ description = "A repository used to store the 150 representative networks of Fra
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "requests>=2.32.3",
-    "rich>=14.0.0",
-    "roseau-load-flow>=0.12.0",
+  "requests>=2.32.3",
+  "rich>=14.0.0",
+  "roseau-load-flow>=0.13.1",
 ]
 
-[tool.uv]
-managed = true
-package = false
+# MD format
+[tool.mdformat]
+wrap = 120
+number = true
 
+# Ruff
 [tool.ruff]
 line-length = 120
 show-fixes = true
 
 [tool.ruff.lint]
 select = [
-    "E", "F", "C90", "W", "B", "UP", "I", "RUF", "TID", "SIM", "PT", "PIE", "N", "C4", "G", "PTH", "FURB", "PYI",
-    "LOG"
+  "E",
+  "F",
+  "C90",
+  "W",
+  "B",
+  "UP",
+  "I",
+  "RUF",
+  "TID",
+  "SIM",
+  "PT",
+  "PIE",
+  "N",
+  "C4",
+  "G",
+  "PTH",
+  "FURB",
+  "PYI",
+  "LOG",
 ]
 unfixable = ["B"]
-extend-ignore = ["B024", "G004", "UP038", "N818", "RUF012"]
+ignore = ["B024", "G004", "UP038", "N818", "RUF012"]
 flake8-tidy-imports.ban-relative-imports = "all"
 flake8-pytest-style.parametrize-values-type = "tuple"
 mccabe.max-complexity = 15
+
+# Tombi
+[[tool.tombi.schemas]]
+root = "tool.typos"
+path = "https://raw.githubusercontent.com/crate-ci/typos/refs/heads/master/config.schema.json"
+include = ["pyproject.toml"]
+
+# Typos
+[tool.typos.files]
+extend-exclude = ["data/"]
+
+# UV
+[tool.uv]
+managed = true
+package = false

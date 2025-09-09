@@ -11,7 +11,7 @@ https://www.data.gouv.fr/fr/datasets/departs-hta-representatifs-pour-lanalyse-de
 # dependencies = [
 #     "requests>=2.32.3",
 #     "rich>=14.0.0",
-#     "roseau-load-flow>=0.12.0",
+#     "roseau-load-flow>=0.13.1",
 # ]
 # ///
 

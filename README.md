@@ -1,9 +1,9 @@
 # Representative networks of France's electricity distribution network
 
-This GitHub repository provides the 150 MV feeders with all underlying LV networks used in [Seddik Yassine
-Abdelouadoud's study](https://www.data.gouv.fr/fr/datasets/departs-hta-representatifs-pour-lanalyse-des-reseaux-de-distribution-francais/).
-These networks were selected from among French distribution networks as being representative of it. The details of
-the procedure used to select them are available in a report accessible via the previous link (French only).
+This GitHub repository provides the 150 MV feeders with all underlying LV networks used in
+[Seddik Yassine Abdelouadoud's study](https://www.data.gouv.fr/fr/datasets/departs-hta-representatifs-pour-lanalyse-des-reseaux-de-distribution-francais/).
+These networks were selected from among French distribution networks as being representative of it. The details of the
+procedure used to select them are available in a report accessible via the previous link (French only).
 
 In this repository, an updated version of the files representing these networks is available for direct use with
 [_Roseau Load Flow_](https://github.com/RoseauTechnologies/Roseau_Load_Flow).
@@ -12,7 +12,7 @@ In this repository, an updated version of the files representing these networks 
 
 ## Setup
 
-In order to start using these networks, `roseau-load-flow>=0.12.0` must be installed. It can be achieved via `uv`:
+In order to start using these networks, `roseau-load-flow>=0.13.1` must be installed. It can be achieved via `uv`:
 
 ```bash
 # Install a virtual environment (optional)
@@ -27,7 +27,7 @@ or via `pip`:
 
 ```bash
 # In your virtual environment
-pip install roseau-load-flow>=0.12.0
+pip install roseau-load-flow>=0.13.1
 ```
 
 For more information, see the "Installation" page of the _Roseau Load Flow_ documentation available
@@ -98,7 +98,8 @@ more information.
 
 ## Extrapolating the results
 
-This study also provides a size for each cluster, indicating its representativeness within France. These sizes are stored in the file `./data/Cluster_Size.csv`.
+This study also provides a size for each cluster, indicating its representativeness within France. These sizes are
+stored in the file `./data/Cluster_Size.csv`.
 
 For example, the representativeness size of the network `11_MVFeeder0725` is 326.
 
@@ -117,8 +118,8 @@ The total cluster size is 24135, so the network `11_MVFeeder0725` represents 1.3
 
 The `scripts/` folder contains two scripts:
 
-- `convert_networks.py`: Downloads network files in their original format and converts them to the latest _Roseau
-  Load Flow_ JSON format.
+- `convert_networks.py`: Downloads network files in their original format and converts them to the latest _Roseau Load
+  Flow_ JSON format.
 - `plot_networks.py`: Plots the networks using the folium library and generates regional maps showing all networks
   within each region.
 
@@ -152,8 +153,8 @@ engineers, and decision-makers.
 This dataset was developed from open data from reliable sources, such as network traces published by the ORE agency,
 local energy consumption data, and building geometries provided by the
 [_Institut Géographique National_](https://www.ign.fr/) (IGN i.e. _National Geographic Institute_)
-([BDTOPO](https://geoservices.ign.fr/bdtopo)). The feeders were selected using
-advanced clustering algorithms, ensuring a balanced distribution of representative cases across the French territory.
+([BDTOPO](https://geoservices.ign.fr/bdtopo)). The feeders were selected using advanced clustering algorithms, ensuring
+a balanced distribution of representative cases across the French territory.
 
 ### Use Cases
 
@@ -167,7 +168,7 @@ The dataset is made available under the Open License version 2.0, promoting its 
 download the files and access the full documentation via
 [this page](https://www.data.gouv.fr/fr/datasets/departs-hta-representatifs-pour-lanalyse-des-reseaux-de-distribution-francais/).
 
-For a comprehensive report describing the
-methodology: [Methodological Report](https://storage.googleapis.com/roseau-post-doc-report/selection%20departs%20HTA%20representatifs.pdf)
+For a comprehensive report describing the methodology:
+[Methodological Report](https://storage.googleapis.com/roseau-post-doc-report/selection%20departs%20HTA%20representatifs.pdf)
 
 Contribute to the future of electrical networks by exploring and utilizing this unique dataset in France!

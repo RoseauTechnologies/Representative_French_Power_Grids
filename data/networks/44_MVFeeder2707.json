@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "is_multiphase": true,
   "crs": {
     "data": "EPSG:4326",
@@ -80,9 +80,9 @@
   "lines": [
     {
       "id": "44_129096",
-      "phases": "abc",
       "bus1": "44_VOID",
       "bus2": "44_MVLV24227",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -107,9 +107,9 @@
     },
     {
       "id": "44_96573",
-      "phases": "abc",
       "bus1": "44_MVLV24227",
       "bus2": "44_MVLV47838",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -262,9 +262,9 @@
     },
     {
       "id": "44_130257",
-      "phases": "abc",
       "bus1": "44_MVLV24227",
       "bus2": "44_MVLV32026",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -285,9 +285,9 @@
     },
     {
       "id": "44_134642",
-      "phases": "abc",
       "bus1": "44_MVLV32026",
       "bus2": "44_MVLV36552",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -308,9 +308,10 @@
   "switches": [
     {
       "id": "switch",
-      "phases": "abc",
       "bus1": "MVVoltage_source",
-      "bus2": "44_VOID"
+      "bus2": "44_VOID",
+      "phases": "abc",
+      "closed": true
     }
   ],
   "loads": [
@@ -318,32 +319,24 @@
       "id": "44_MVLV24227_consumption",
       "bus": "44_MVLV24227",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "44_MVLV24227_production",
       "bus": "44_MVLV24227",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "44_MVLV47838_consumption",
       "bus": "44_MVLV47838",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [525691.1496370633, 157707.34489111896],
         [525691.1496370633, 157707.34489111896],
@@ -354,61 +347,41 @@
       "id": "44_MVLV47838_production",
       "bus": "44_MVLV47838",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "44_MVLV32026_consumption",
       "bus": "44_MVLV32026",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "44_MVLV32026_production",
       "bus": "44_MVLV32026",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "44_MVLV36552_consumption",
       "bus": "44_MVLV36552",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "44_MVLV36552_production",
       "bus": "44_MVLV36552",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     }
   ],
   "sources": [
@@ -416,41 +389,21 @@
       "id": "vs",
       "bus": "MVVoltage_source",
       "phases": "abcn",
-      "type": "voltage",
       "connect_neutral": null,
-      "voltages": [
-        [11777.945491468367, 0.0],
-        [-5888.97274573418, -10200.0],
-        [-5888.97274573418, 10200.0]
-      ]
+      "type": "voltage",
+      "voltages": [[11777.945491468367, 0.0], [-5888.97274573418, -10200.0], [-5888.97274573418, 10200.0]]
     }
   ],
   "lines_params": [
     {
       "id": "U_AL_240",
       "z_line": [
-        [
-          [0.125, 0.0, 0.0],
-          [0.0, 0.125, 0.0],
-          [0.0, 0.0, 0.125]
-        ],
-        [
-          [0.0899296465, 0.0, 0.0],
-          [0.0, 0.0899296465, 0.0],
-          [0.0, 0.0, 0.0899296465]
-        ]
+        [[0.125, 0.0, 0.0], [0.0, 0.125, 0.0], [0.0, 0.0, 0.125]],
+        [[0.0899296465, 0.0, 0.0], [0.0, 0.0899296465, 0.0], [0.0, 0.0, 0.0899296465]]
       ],
       "y_shunt": [
-        [
-          [0.0, 0.0, 0.0],
-          [0.0, 0.0, 0.0],
-          [0.0, 0.0, 0.0]
-        ],
-        [
-          [3.69374e-5, 0.0, 0.0],
-          [0.0, 3.69374e-5, 0.0],
-          [0.0, 0.0, 3.69374e-5]
-        ]
+        [[0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0]],
+        [[3.69374e-5, 0.0, 0.0], [0.0, 3.69374e-5, 0.0], [0.0, 0.0, 3.69374e-5]]
       ],
       "ampacities": [428.0, 428.0, 428.0],
       "line_type": "UNDERGROUND",

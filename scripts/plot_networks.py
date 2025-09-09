@@ -29,7 +29,7 @@ from rich.progress import Progress, SpinnerColumn, TimeElapsedColumn
 
 logger = logging.getLogger(__name__)
 
-HV_MV_SUBSTATION_ID_PATTERN: re.Pattern[str] = re.compile(r"^[0-9]{2}_[A-Z]+[0-9]?$")
+HV_MV_SUBSTATION_ID_PATTERN: re.Pattern[str] = re.compile(r"^[0-9]{2}_[A-Z.]+[0-9]?$")
 MV_LV_SUBSTATION_ID_PATTERN: re.Pattern[str] = re.compile(r"^[0-9]{2}_MVLV[0-9]+$")
 MV_BUS_ID_PATTERN: re.Pattern[str] = re.compile(r"^[0-9]{2}_MVBus[0-9]+$")
 # LV_BUS_ID_PATTERN: re.Pattern[str] = re.compile(r"^[0-9]{2}_LVBus[0-9]+$")

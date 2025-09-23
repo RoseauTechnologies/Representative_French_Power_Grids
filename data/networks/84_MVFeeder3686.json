@@ -18,10 +18,6 @@
   ],
   "buses": [
     {
-      "id": "MVVoltage_source",
-      "phases": "abcn"
-    },
-    {
       "id": "84_SSCL5",
       "phases": "abc",
       "geometry": {
@@ -26654,15 +26650,7 @@
       "tap": 1.0
     }
   ],
-  "switches": [
-    {
-      "id": "switch",
-      "bus1": "MVVoltage_source",
-      "bus2": "84_SSCL5",
-      "phases": "abc",
-      "closed": true
-    }
-  ],
+  "switches": [],
   "loads": [
     {
       "id": "84_MVLV125712_consumption",
@@ -36132,7 +36120,7 @@
   "sources": [
     {
       "id": "vs",
-      "bus": "MVVoltage_source",
+      "bus": "84_SSCL5",
       "phases": "abcn",
       "connect_neutral": null,
       "type": "voltage",
@@ -36317,8 +36305,8 @@
       "id": "1",
       "ground": "gnd",
       "element": {
-        "id": "MVVoltage_source",
-        "type": "bus"
+        "id": "vs",
+        "type": "source"
       },
       "phase": "n",
       "impedance": [0.0, 0.0],

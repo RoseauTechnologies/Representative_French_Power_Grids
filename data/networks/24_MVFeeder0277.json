@@ -18,10 +18,6 @@
   ],
   "buses": [
     {
-      "id": "MVVoltage_source",
-      "phases": "abcn"
-    },
-    {
       "id": "24_BUIS",
       "phases": "abc",
       "geometry": {
@@ -12122,15 +12118,7 @@
       "tap": 1.0
     }
   ],
-  "switches": [
-    {
-      "id": "switch",
-      "bus1": "MVVoltage_source",
-      "bus2": "24_BUIS",
-      "phases": "abc",
-      "closed": true
-    }
-  ],
+  "switches": [],
   "loads": [
     {
       "id": "24_LVBus216889_consumption",
@@ -16344,7 +16332,7 @@
   "sources": [
     {
       "id": "vs",
-      "bus": "MVVoltage_source",
+      "bus": "24_BUIS",
       "phases": "abcn",
       "connect_neutral": null,
       "type": "voltage",
@@ -16542,8 +16530,8 @@
       "id": "1",
       "ground": "gnd",
       "element": {
-        "id": "MVVoltage_source",
-        "type": "bus"
+        "id": "vs",
+        "type": "source"
       },
       "phase": "n",
       "impedance": [0.0, 0.0],

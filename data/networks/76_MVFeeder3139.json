@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "is_multiphase": true,
   "crs": {
     "data": "EPSG:4326",
@@ -17,10 +17,6 @@
     }
   ],
   "buses": [
-    {
-      "id": "MVVoltage_source",
-      "phases": "abcn"
-    },
     {
       "id": "76_SALAN",
       "phases": "abc",
@@ -1664,9 +1660,9 @@
   "lines": [
     {
       "id": "76_357783",
-      "phases": "abc",
       "bus1": "76_SALAN",
       "bus2": "76_MVBus083068",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -1705,9 +1701,9 @@
     },
     {
       "id": "76_81767",
-      "phases": "abc",
       "bus1": "76_MVBus083068",
       "bus2": "76_MVLV116110",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -1728,9 +1724,9 @@
     },
     {
       "id": "76_LVBranch0205122",
-      "phases": "abcn",
       "bus1": "76_MVLV116110_LV",
       "bus2": "76_LVBus1018330",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -1749,9 +1745,9 @@
     },
     {
       "id": "76_LVBranch0460976",
-      "phases": "abcn",
       "bus1": "76_LVBus1018330",
       "bus2": "76_LVBus1018331",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -1770,9 +1766,9 @@
     },
     {
       "id": "76_LVBranch0692513",
-      "phases": "abcn",
       "bus1": "76_LVBus1018331",
       "bus2": "76_LVBus1018334",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -1791,9 +1787,9 @@
     },
     {
       "id": "76_LVBranch0284158",
-      "phases": "abcn",
       "bus1": "76_LVBus1018331",
       "bus2": "76_LVBus1018332",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -1810,9 +1806,9 @@
     },
     {
       "id": "76_LVBranch0724687",
-      "phases": "abcn",
       "bus1": "76_LVBus1018332",
       "bus2": "76_LVBus1018333",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -1829,9 +1825,9 @@
     },
     {
       "id": "76_LVBranch0271858",
-      "phases": "abcn",
       "bus1": "76_LVBus1018330",
       "bus2": "76_LVBus1018335",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -1852,9 +1848,9 @@
     },
     {
       "id": "76_175281",
-      "phases": "abc",
       "bus1": "76_MVBus083068",
       "bus2": "76_MVBus083069",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -1873,9 +1869,9 @@
     },
     {
       "id": "76_334219",
-      "phases": "abc",
       "bus1": "76_MVBus083069",
       "bus2": "76_MVLV129880",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -1895,9 +1891,9 @@
     },
     {
       "id": "76_312747",
-      "phases": "abc",
       "bus1": "76_MVLV129880",
       "bus2": "76_MVLV115988",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -1944,9 +1940,9 @@
     },
     {
       "id": "76_406342",
-      "phases": "abc",
       "bus1": "76_MVLV115988",
       "bus2": "76_MVLV006291",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -1984,9 +1980,9 @@
     },
     {
       "id": "76_292197",
-      "phases": "abc",
       "bus1": "76_MVLV115988",
       "bus2": "76_MVLV110131",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2004,9 +2000,9 @@
     },
     {
       "id": "76_LVBranch0893578",
-      "phases": "abcn",
       "bus1": "76_MVLV115988_LV",
       "bus2": "76_LVBus1018314",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2033,9 +2029,9 @@
     },
     {
       "id": "76_LVBranch0662088",
-      "phases": "abcn",
       "bus1": "76_LVBus1018314",
       "bus2": "76_LVBus1018315",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2055,9 +2051,9 @@
     },
     {
       "id": "76_LVBranch0368556",
-      "phases": "abcn",
       "bus1": "76_LVBus1018315",
       "bus2": "76_LVBus1018317",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2074,9 +2070,9 @@
     },
     {
       "id": "76_LVBranch0703681",
-      "phases": "abcn",
       "bus1": "76_LVBus1018317",
       "bus2": "76_LVBus1018328",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2095,9 +2091,9 @@
     },
     {
       "id": "76_LVBranch0056941",
-      "phases": "abcn",
       "bus1": "76_LVBus1018317",
       "bus2": "76_LVBus1018318",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2114,9 +2110,9 @@
     },
     {
       "id": "76_LVBranch0134132",
-      "phases": "abcn",
       "bus1": "76_LVBus1018318",
       "bus2": "76_LVBus1018327",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2137,9 +2133,9 @@
     },
     {
       "id": "76_LVBranch0069463",
-      "phases": "abcn",
       "bus1": "76_LVBus1018318",
       "bus2": "76_LVBus1018319",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2162,9 +2158,9 @@
     },
     {
       "id": "76_LVBranch0211411",
-      "phases": "abcn",
       "bus1": "76_LVBus1018319",
       "bus2": "76_LVBus1018320",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2183,9 +2179,9 @@
     },
     {
       "id": "76_LVBranch0559507",
-      "phases": "abcn",
       "bus1": "76_LVBus1018320",
       "bus2": "76_LVBus1018321",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2202,9 +2198,9 @@
     },
     {
       "id": "76_LVBranch0019456",
-      "phases": "abcn",
       "bus1": "76_LVBus1018321",
       "bus2": "76_LVBus1018322",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2224,9 +2220,9 @@
     },
     {
       "id": "76_LVBranch0345109",
-      "phases": "abcn",
       "bus1": "76_LVBus1018320",
       "bus2": "76_LVBus1018323",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2245,9 +2241,9 @@
     },
     {
       "id": "76_LVBranch0405886",
-      "phases": "abcn",
       "bus1": "76_LVBus1018323",
       "bus2": "76_LVBus1018324",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2270,9 +2266,9 @@
     },
     {
       "id": "76_LVBranch0691391",
-      "phases": "abcn",
       "bus1": "76_LVBus1018324",
       "bus2": "76_LVBus1018325",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2290,9 +2286,9 @@
     },
     {
       "id": "76_LVBranch0079407",
-      "phases": "abcn",
       "bus1": "76_LVBus1018319",
       "bus2": "76_LVBus1018326",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2311,9 +2307,9 @@
     },
     {
       "id": "76_LVBranch0056850",
-      "phases": "abcn",
       "bus1": "76_LVBus1018315",
       "bus2": "76_LVBus1018316",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2331,9 +2327,9 @@
     },
     {
       "id": "76_LVBranch0958846",
-      "phases": "abcn",
       "bus1": "76_MVLV115988_LV",
       "bus2": "76_LVBus1018308",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2359,9 +2355,9 @@
     },
     {
       "id": "76_LVBranch0404117",
-      "phases": "abcn",
       "bus1": "76_LVBus1018308",
       "bus2": "76_LVBus1018309",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2378,9 +2374,9 @@
     },
     {
       "id": "76_LVBranch0566154",
-      "phases": "abcn",
       "bus1": "76_LVBus1018309",
       "bus2": "76_LVBus1018310",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2400,9 +2396,9 @@
     },
     {
       "id": "76_LVBranch0261713",
-      "phases": "abcn",
       "bus1": "76_LVBus1018309",
       "bus2": "76_LVBus1018311",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2420,9 +2416,9 @@
     },
     {
       "id": "76_LVBranch0145551",
-      "phases": "abcn",
       "bus1": "76_LVBus1018308",
       "bus2": "76_LVBus1018312",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2442,9 +2438,9 @@
     },
     {
       "id": "76_13502",
-      "phases": "abc",
       "bus1": "76_MVBus083069",
       "bus2": "76_MVBus083070",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2463,9 +2459,9 @@
     },
     {
       "id": "76_70179",
-      "phases": "abc",
       "bus1": "76_MVBus083070",
       "bus2": "76_MVLV128570",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2482,9 +2478,9 @@
     },
     {
       "id": "76_LVBranch0048776",
-      "phases": "abcn",
       "bus1": "76_MVLV128570_LV",
       "bus2": "76_LVBus1018341",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2503,9 +2499,9 @@
     },
     {
       "id": "76_LVBranch0006068",
-      "phases": "abcn",
       "bus1": "76_MVLV128570_LV",
       "bus2": "76_LVBus1018339",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2523,9 +2519,9 @@
     },
     {
       "id": "76_175369",
-      "phases": "abc",
       "bus1": "76_MVBus083070",
       "bus2": "76_MVBus083071",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2546,9 +2542,9 @@
     },
     {
       "id": "76_133293",
-      "phases": "abc",
       "bus1": "76_MVBus083071",
       "bus2": "76_MVLV145142",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2567,9 +2563,9 @@
     },
     {
       "id": "76_LVBranch1331048",
-      "phases": "abcn",
       "bus1": "76_MVLV145142_LV",
       "bus2": "76_LVBus1018343",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2589,9 +2585,9 @@
     },
     {
       "id": "76_LVBranch0717554",
-      "phases": "abcn",
       "bus1": "76_LVBus1018343",
       "bus2": "76_LVBus1018344",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2613,9 +2609,9 @@
     },
     {
       "id": "76_LVBranch0134471",
-      "phases": "abcn",
       "bus1": "76_LVBus1018344",
       "bus2": "76_LVBus1018347",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2634,9 +2630,9 @@
     },
     {
       "id": "76_LVBranch0335717",
-      "phases": "abcn",
       "bus1": "76_LVBus1018347",
       "bus2": "76_LVBus1018348",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2656,9 +2652,9 @@
     },
     {
       "id": "76_LVBranch0701781",
-      "phases": "abcn",
       "bus1": "76_LVBus1018348",
       "bus2": "76_LVBus1018349",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2675,9 +2671,9 @@
     },
     {
       "id": "76_LVBranch0049450",
-      "phases": "abcn",
       "bus1": "76_LVBus1018348",
       "bus2": "76_LVBus1018350",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2694,9 +2690,9 @@
     },
     {
       "id": "76_LVBranch0002844",
-      "phases": "abcn",
       "bus1": "76_LVBus1018344",
       "bus2": "76_LVBus1018345",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2715,9 +2711,9 @@
     },
     {
       "id": "76_LVBranch0104484",
-      "phases": "abcn",
       "bus1": "76_LVBus1018345",
       "bus2": "76_LVBus1018346",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2735,9 +2731,9 @@
     },
     {
       "id": "76_133292",
-      "phases": "abc",
       "bus1": "76_MVBus083071",
       "bus2": "76_MVBus083072",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2757,9 +2753,9 @@
     },
     {
       "id": "76_70328",
-      "phases": "abc",
       "bus1": "76_MVBus083072",
       "bus2": "76_MVLV006293",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2780,9 +2776,9 @@
     },
     {
       "id": "76_175379",
-      "phases": "abc",
       "bus1": "76_MVBus083072",
       "bus2": "76_MVBus083073",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2800,9 +2796,9 @@
     },
     {
       "id": "76_366469",
-      "phases": "abc",
       "bus1": "76_MVBus083073",
       "bus2": "76_MVLV007408",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2822,9 +2818,9 @@
     },
     {
       "id": "76_306739",
-      "phases": "abc",
       "bus1": "76_MVLV007408",
       "bus2": "76_MVBus083077",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2880,9 +2876,9 @@
     },
     {
       "id": "76_122685",
-      "phases": "abc",
       "bus1": "76_MVBus083077",
       "bus2": "76_MVBus083078",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2899,9 +2895,9 @@
     },
     {
       "id": "76_378613",
-      "phases": "abc",
       "bus1": "76_MVBus083078",
       "bus2": "76_MVLV027188",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2938,9 +2934,9 @@
     },
     {
       "id": "76_411795",
-      "phases": "abc",
       "bus1": "76_MVLV027188",
       "bus2": "76_MVBus083079",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2988,9 +2984,9 @@
     },
     {
       "id": "76_133294",
-      "phases": "abc",
       "bus1": "76_MVBus083079",
       "bus2": "76_MVBus083080",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3008,9 +3004,9 @@
     },
     {
       "id": "76_LVBranch1562085",
-      "phases": "abcn",
       "bus1": "76_MVLV027188_LV",
       "bus2": "76_LVBus1018271",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3028,9 +3024,9 @@
     },
     {
       "id": "76_LVBranch1702687",
-      "phases": "abcn",
       "bus1": "76_LVBus1018271",
       "bus2": "76_LVBus1018274",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3062,9 +3058,9 @@
     },
     {
       "id": "76_LVBranch0979836",
-      "phases": "abcn",
       "bus1": "76_LVBus1018274",
       "bus2": "76_LVBus1018275",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3089,9 +3085,9 @@
     },
     {
       "id": "76_LVBranch0864011",
-      "phases": "abcn",
       "bus1": "76_LVBus1018275",
       "bus2": "76_LVBus1018276",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3112,9 +3108,9 @@
     },
     {
       "id": "76_LVBranch1104285",
-      "phases": "abcn",
       "bus1": "76_LVBus1018276",
       "bus2": "76_LVBus1018279",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3139,9 +3135,9 @@
     },
     {
       "id": "76_LVBranch1342979",
-      "phases": "abcn",
       "bus1": "76_LVBus1018279",
       "bus2": "76_LVBus1018280",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3167,9 +3163,9 @@
     },
     {
       "id": "76_LVBranch1712745",
-      "phases": "abcn",
       "bus1": "76_LVBus1018280",
       "bus2": "76_LVBus1018281",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3190,9 +3186,9 @@
     },
     {
       "id": "76_LVBranch0848390",
-      "phases": "abcn",
       "bus1": "76_LVBus1018281",
       "bus2": "76_LVBus1018282",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3214,9 +3210,9 @@
     },
     {
       "id": "76_LVBranch0814015",
-      "phases": "abcn",
       "bus1": "76_LVBus1018281",
       "bus2": "76_LVBus1018283",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3238,9 +3234,9 @@
     },
     {
       "id": "76_LVBranch0877668",
-      "phases": "abcn",
       "bus1": "76_LVBus1018276",
       "bus2": "76_LVBus1018277",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3262,9 +3258,9 @@
     },
     {
       "id": "76_LVBranch1498419",
-      "phases": "abcn",
       "bus1": "76_LVBus1018277",
       "bus2": "76_LVBus1018278",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3288,9 +3284,9 @@
     },
     {
       "id": "76_LVBranch0868778",
-      "phases": "abcn",
       "bus1": "76_LVBus1018271",
       "bus2": "76_LVBus1018272",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3315,9 +3311,9 @@
     },
     {
       "id": "76_LVBranch1357144",
-      "phases": "abcn",
       "bus1": "76_LVBus1018272",
       "bus2": "76_LVBus1018273",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3348,9 +3344,9 @@
     },
     {
       "id": "76_LVBranch1502210",
-      "phases": "abcn",
       "bus1": "76_MVLV027188_LV",
       "bus2": "76_LVBus1018266",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3380,9 +3376,9 @@
     },
     {
       "id": "76_LVBranch1391855",
-      "phases": "abcn",
       "bus1": "76_LVBus1018266",
       "bus2": "76_LVBus1018267",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3403,9 +3399,9 @@
     },
     {
       "id": "76_LVBranch1796832",
-      "phases": "abcn",
       "bus1": "76_LVBus1018267",
       "bus2": "76_LVBus1018268",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3425,9 +3421,9 @@
     },
     {
       "id": "76_LVBranch1796791",
-      "phases": "abcn",
       "bus1": "76_LVBus1018268",
       "bus2": "76_LVBus1018269",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3447,9 +3443,9 @@
     },
     {
       "id": "76_LVBranch1705137",
-      "phases": "abcn",
       "bus1": "76_LVBus1018269",
       "bus2": "76_LVBus2076477",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3470,9 +3466,9 @@
     },
     {
       "id": "76_LVBranch0814014",
-      "phases": "abcn",
       "bus1": "76_LVBus1018269",
       "bus2": "76_LVBus2056221",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3493,9 +3489,9 @@
     },
     {
       "id": "76_LVBranch1579732",
-      "phases": "abcn",
       "bus1": "76_LVBus2056221",
       "bus2": "76_LVBus2056222",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3518,9 +3514,9 @@
     },
     {
       "id": "76_LVBranch1507681",
-      "phases": "abcn",
       "bus1": "76_MVLV027188_LV",
       "bus2": "76_LVBus1018263",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3548,9 +3544,9 @@
     },
     {
       "id": "76_LVBranch0856153",
-      "phases": "abcn",
       "bus1": "76_LVBus1018263",
       "bus2": "76_LVBus1018264",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3575,9 +3571,9 @@
     },
     {
       "id": "76_LVBranch1382486",
-      "phases": "abcn",
       "bus1": "76_MVLV027188_LV",
       "bus2": "76_LVBus1018259",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3603,9 +3599,9 @@
     },
     {
       "id": "76_LVBranch0524365",
-      "phases": "abcn",
       "bus1": "76_LVBus1018259",
       "bus2": "76_LVBus1018260",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3625,9 +3621,9 @@
     },
     {
       "id": "76_LVBranch0664744",
-      "phases": "abcn",
       "bus1": "76_LVBus1018260",
       "bus2": "76_LVBus1018261",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3645,9 +3641,9 @@
     },
     {
       "id": "76_LVBranch1632553",
-      "phases": "abcn",
       "bus1": "76_MVLV027188_LV",
       "bus2": "76_LVBus1018249",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3665,9 +3661,9 @@
     },
     {
       "id": "76_LVBranch1209002",
-      "phases": "abcn",
       "bus1": "76_LVBus1018249",
       "bus2": "76_LVBus1018250",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3685,9 +3681,9 @@
     },
     {
       "id": "76_LVBranch1387744",
-      "phases": "abcn",
       "bus1": "76_LVBus1018250",
       "bus2": "76_LVBus1018251",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3713,9 +3709,9 @@
     },
     {
       "id": "76_LVBranch1332845",
-      "phases": "abcn",
       "bus1": "76_LVBus1018251",
       "bus2": "76_LVBus1018252",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3734,9 +3730,9 @@
     },
     {
       "id": "76_LVBranch0655673",
-      "phases": "abcn",
       "bus1": "76_LVBus1018252",
       "bus2": "76_LVBus1018253",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3759,9 +3755,9 @@
     },
     {
       "id": "76_LVBranch0590147",
-      "phases": "abcn",
       "bus1": "76_LVBus1018253",
       "bus2": "76_LVBus1018254",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3785,9 +3781,9 @@
     },
     {
       "id": "76_LVBranch0416100",
-      "phases": "abcn",
       "bus1": "76_LVBus1018254",
       "bus2": "76_LVBus1018255",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3809,9 +3805,9 @@
     },
     {
       "id": "76_LVBranch0394170",
-      "phases": "abcn",
       "bus1": "76_LVBus1018253",
       "bus2": "76_LVBus1018256",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3828,9 +3824,9 @@
     },
     {
       "id": "76_LVBranch1478132",
-      "phases": "abcn",
       "bus1": "76_LVBus1018256",
       "bus2": "76_LVBus1018257",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3854,9 +3850,9 @@
     },
     {
       "id": "76_192898",
-      "phases": "abc",
       "bus1": "76_MVLV007408",
       "bus2": "76_MVBus083074",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3875,9 +3871,9 @@
     },
     {
       "id": "76_135449",
-      "phases": "abc",
       "bus1": "76_MVBus083074",
       "bus2": "76_MVBus083075",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3894,9 +3890,9 @@
     },
     {
       "id": "76_252973",
-      "phases": "abc",
       "bus1": "76_MVBus083075",
       "bus2": "76_MVLV131480",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3916,9 +3912,9 @@
     },
     {
       "id": "76_133266",
-      "phases": "abc",
       "bus1": "76_MVBus083075",
       "bus2": "76_MVBus083076",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3935,9 +3931,9 @@
     },
     {
       "id": "76_370629",
-      "phases": "abc",
       "bus1": "76_MVBus083076",
       "bus2": "76_MVLV013781",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3958,9 +3954,9 @@
     },
     {
       "id": "76_LVBranch1637861",
-      "phases": "abcn",
       "bus1": "76_MVLV013781_LV",
       "bus2": "76_LVBus1018243",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3979,9 +3975,9 @@
     },
     {
       "id": "76_LVBranch1680215",
-      "phases": "abcn",
       "bus1": "76_LVBus1018243",
       "bus2": "76_LVBus1018244",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4000,9 +3996,9 @@
     },
     {
       "id": "76_LVBranch0445078",
-      "phases": "abcn",
       "bus1": "76_LVBus1018244",
       "bus2": "76_LVBus1018245",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4019,9 +4015,9 @@
     },
     {
       "id": "76_LVBranch0414013",
-      "phases": "abcn",
       "bus1": "76_LVBus1018245",
       "bus2": "76_LVBus1018246",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4040,9 +4036,9 @@
     },
     {
       "id": "76_LVBranch0094028",
-      "phases": "abcn",
       "bus1": "76_LVBus1018244",
       "bus2": "76_LVBus1018247",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4061,9 +4057,9 @@
     },
     {
       "id": "76_LVBranch1517011",
-      "phases": "abcn",
       "bus1": "76_MVLV013781_LV",
       "bus2": "76_LVBus1018223",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4088,9 +4084,9 @@
     },
     {
       "id": "76_LVBranch1728824",
-      "phases": "abcn",
       "bus1": "76_LVBus1018223",
       "bus2": "76_LVBus1018238",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4118,9 +4114,9 @@
     },
     {
       "id": "76_LVBranch1107278",
-      "phases": "abcn",
       "bus1": "76_LVBus1018238",
       "bus2": "76_LVBus1018239",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4141,9 +4137,9 @@
     },
     {
       "id": "76_LVBranch1780142",
-      "phases": "abcn",
       "bus1": "76_LVBus1018239",
       "bus2": "76_LVBus1018241",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4167,9 +4163,9 @@
     },
     {
       "id": "76_LVBranch1658738",
-      "phases": "abcn",
       "bus1": "76_LVBus1018239",
       "bus2": "76_LVBus1018240",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4190,9 +4186,9 @@
     },
     {
       "id": "76_LVBranch1483243",
-      "phases": "abcn",
       "bus1": "76_LVBus1018223",
       "bus2": "76_LVBus1018229",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4212,9 +4208,9 @@
     },
     {
       "id": "76_LVBranch1320004",
-      "phases": "abcn",
       "bus1": "76_LVBus1018229",
       "bus2": "76_LVBus1018230",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4233,9 +4229,9 @@
     },
     {
       "id": "76_LVBranch1704722",
-      "phases": "abcn",
       "bus1": "76_LVBus1018230",
       "bus2": "76_LVBus1018231",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4254,9 +4250,9 @@
     },
     {
       "id": "76_LVBranch1831554",
-      "phases": "abcn",
       "bus1": "76_LVBus1018231",
       "bus2": "76_LVBus1018232",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4281,9 +4277,9 @@
     },
     {
       "id": "76_LVBranch0219204",
-      "phases": "abcn",
       "bus1": "76_LVBus1018232",
       "bus2": "76_LVBus1018233",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4303,9 +4299,9 @@
     },
     {
       "id": "76_LVBranch1706507",
-      "phases": "abcn",
       "bus1": "76_LVBus1018231",
       "bus2": "76_LVBus1018234",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4327,9 +4323,9 @@
     },
     {
       "id": "76_LVBranch0937888",
-      "phases": "abcn",
       "bus1": "76_LVBus1018229",
       "bus2": "76_LVBus1018235",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4356,9 +4352,9 @@
     },
     {
       "id": "76_LVBranch1061369",
-      "phases": "abcn",
       "bus1": "76_LVBus1018235",
       "bus2": "76_LVBus1018236",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4380,9 +4376,9 @@
     },
     {
       "id": "76_LVBranch1595808",
-      "phases": "abcn",
       "bus1": "76_LVBus1018236",
       "bus2": "76_LVBus1018237",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4403,9 +4399,9 @@
     },
     {
       "id": "76_LVBranch1058257",
-      "phases": "abcn",
       "bus1": "76_LVBus1018223",
       "bus2": "76_LVBus1018224",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4425,9 +4421,9 @@
     },
     {
       "id": "76_LVBranch1261298",
-      "phases": "abcn",
       "bus1": "76_LVBus1018224",
       "bus2": "76_LVBus1018225",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4449,9 +4445,9 @@
     },
     {
       "id": "76_LVBranch0860616",
-      "phases": "abcn",
       "bus1": "76_LVBus1018225",
       "bus2": "76_LVBus1018226",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4480,9 +4476,9 @@
     },
     {
       "id": "76_LVBranch1214467",
-      "phases": "abcn",
       "bus1": "76_LVBus1018226",
       "bus2": "76_LVBus1018227",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4502,9 +4498,9 @@
     },
     {
       "id": "76_LVBranch1089862",
-      "phases": "abcn",
       "bus1": "76_LVBus1018227",
       "bus2": "76_LVBus1018228",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4525,9 +4521,9 @@
     },
     {
       "id": "76_117271",
-      "phases": "abc",
       "bus1": "76_MVBus083076",
       "bus2": "76_MVLV052940",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4558,9 +4554,9 @@
     },
     {
       "id": "76_LVBranch0028833",
-      "phases": "abcn",
       "bus1": "76_MVLV052940_LV",
       "bus2": "76_LVBus1018287",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4578,9 +4574,9 @@
     },
     {
       "id": "76_LVBranch0701784",
-      "phases": "abcn",
       "bus1": "76_LVBus1018287",
       "bus2": "76_LVBus1018288",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4599,9 +4595,9 @@
     },
     {
       "id": "76_LVBranch0562662",
-      "phases": "abcn",
       "bus1": "76_LVBus1018288",
       "bus2": "76_LVBus1018289",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4628,9 +4624,9 @@
     },
     {
       "id": "76_LVBranch1368791",
-      "phases": "abcn",
       "bus1": "76_LVBus1018289",
       "bus2": "76_LVBus1018290",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4654,9 +4650,9 @@
     },
     {
       "id": "76_LVBranch0813621",
-      "phases": "abcn",
       "bus1": "76_LVBus1018290",
       "bus2": "76_LVBus1018291",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4675,9 +4671,9 @@
     },
     {
       "id": "76_LVBranch0471261",
-      "phases": "abcn",
       "bus1": "76_LVBus1018291",
       "bus2": "76_LVBus1018292",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4696,9 +4692,9 @@
     },
     {
       "id": "76_LVBranch0369679",
-      "phases": "abcn",
       "bus1": "76_LVBus1018287",
       "bus2": "76_LVBus1018293",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4718,9 +4714,9 @@
     },
     {
       "id": "76_LVBranch0468799",
-      "phases": "abcn",
       "bus1": "76_LVBus1018293",
       "bus2": "76_LVBus1018294",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4753,9 +4749,9 @@
     },
     {
       "id": "76_LVBranch1267300",
-      "phases": "abcn",
       "bus1": "76_LVBus1018294",
       "bus2": "76_LVBus1018295",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4777,9 +4773,9 @@
     },
     {
       "id": "76_LVBranch1734788",
-      "phases": "abcn",
       "bus1": "76_LVBus1018295",
       "bus2": "76_LVBus1018296",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4799,9 +4795,9 @@
     },
     {
       "id": "76_LVBranch0039404",
-      "phases": "abcn",
       "bus1": "76_LVBus1018293",
       "bus2": "76_LVBus1018297",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4827,9 +4823,9 @@
     },
     {
       "id": "76_LVBranch0766912",
-      "phases": "abcn",
       "bus1": "76_LVBus1018297",
       "bus2": "76_LVBus1018298",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4847,9 +4843,9 @@
     },
     {
       "id": "76_LVBranch0188601",
-      "phases": "abcn",
       "bus1": "76_LVBus1018287",
       "bus2": "76_LVBus1018299",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4867,9 +4863,9 @@
     },
     {
       "id": "76_120329",
-      "phases": "abc",
       "bus1": "76_MVBus083072",
       "bus2": "76_MVLV062597",
+      "phases": "abc",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4886,9 +4882,9 @@
     },
     {
       "id": "76_LVBranch0318366",
-      "phases": "abcn",
       "bus1": "76_MVLV062597_LV",
       "bus2": "76_LVBus1018301",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4911,9 +4907,9 @@
     },
     {
       "id": "76_LVBranch0432706",
-      "phases": "abcn",
       "bus1": "76_LVBus1018301",
       "bus2": "76_LVBus1018305",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4931,9 +4927,9 @@
     },
     {
       "id": "76_LVBranch1776853",
-      "phases": "abcn",
       "bus1": "76_LVBus1018305",
       "bus2": "76_LVBus1018306",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4953,9 +4949,9 @@
     },
     {
       "id": "76_LVBranch0219201",
-      "phases": "abcn",
       "bus1": "76_LVBus1018301",
       "bus2": "76_LVBus1018302",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4974,9 +4970,9 @@
     },
     {
       "id": "76_LVBranch0482190",
-      "phases": "abcn",
       "bus1": "76_LVBus1018302",
       "bus2": "76_LVBus1018304",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4996,9 +4992,9 @@
     },
     {
       "id": "76_LVBranch0137443",
-      "phases": "abcn",
       "bus1": "76_LVBus1018302",
       "bus2": "76_LVBus1018303",
+      "phases": "abcn",
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -5019,10 +5015,10 @@
   "transformers": [
     {
       "id": "76_MVLV116110_Transformer",
-      "phases_hv": "abc",
-      "phases_lv": "abcn",
       "bus_hv": "76_MVLV116110",
       "bus_lv": "76_MVLV116110_LV",
+      "phases_hv": "abc",
+      "phases_lv": "abcn",
       "connect_neutral_hv": null,
       "connect_neutral_lv": null,
       "max_loading": 1.1,
@@ -5031,10 +5027,10 @@
     },
     {
       "id": "76_MVLV115988_Transformer",
-      "phases_hv": "abc",
-      "phases_lv": "abcn",
       "bus_hv": "76_MVLV115988",
       "bus_lv": "76_MVLV115988_LV",
+      "phases_hv": "abc",
+      "phases_lv": "abcn",
       "connect_neutral_hv": null,
       "connect_neutral_lv": null,
       "max_loading": 1.1,
@@ -5043,10 +5039,10 @@
     },
     {
       "id": "76_MVLV128570_Transformer",
-      "phases_hv": "abc",
-      "phases_lv": "abcn",
       "bus_hv": "76_MVLV128570",
       "bus_lv": "76_MVLV128570_LV",
+      "phases_hv": "abc",
+      "phases_lv": "abcn",
       "connect_neutral_hv": null,
       "connect_neutral_lv": null,
       "max_loading": 1.1,
@@ -5055,10 +5051,10 @@
     },
     {
       "id": "76_MVLV145142_Transformer",
-      "phases_hv": "abc",
-      "phases_lv": "abcn",
       "bus_hv": "76_MVLV145142",
       "bus_lv": "76_MVLV145142_LV",
+      "phases_hv": "abc",
+      "phases_lv": "abcn",
       "connect_neutral_hv": null,
       "connect_neutral_lv": null,
       "max_loading": 1.1,
@@ -5067,10 +5063,10 @@
     },
     {
       "id": "76_MVLV027188_Transformer",
-      "phases_hv": "abc",
-      "phases_lv": "abcn",
       "bus_hv": "76_MVLV027188",
       "bus_lv": "76_MVLV027188_LV",
+      "phases_hv": "abc",
+      "phases_lv": "abcn",
       "connect_neutral_hv": null,
       "connect_neutral_lv": null,
       "max_loading": 1.1,
@@ -5079,10 +5075,10 @@
     },
     {
       "id": "76_MVLV013781_Transformer",
-      "phases_hv": "abc",
-      "phases_lv": "abcn",
       "bus_hv": "76_MVLV013781",
       "bus_lv": "76_MVLV013781_LV",
+      "phases_hv": "abc",
+      "phases_lv": "abcn",
       "connect_neutral_hv": null,
       "connect_neutral_lv": null,
       "max_loading": 1.1,
@@ -5091,10 +5087,10 @@
     },
     {
       "id": "76_MVLV052940_Transformer",
-      "phases_hv": "abc",
-      "phases_lv": "abcn",
       "bus_hv": "76_MVLV052940",
       "bus_lv": "76_MVLV052940_LV",
+      "phases_hv": "abc",
+      "phases_lv": "abcn",
       "connect_neutral_hv": null,
       "connect_neutral_lv": null,
       "max_loading": 1.1,
@@ -5103,10 +5099,10 @@
     },
     {
       "id": "76_MVLV062597_Transformer",
-      "phases_hv": "abc",
-      "phases_lv": "abcn",
       "bus_hv": "76_MVLV062597",
       "bus_lv": "76_MVLV062597_LV",
+      "phases_hv": "abc",
+      "phases_lv": "abcn",
       "connect_neutral_hv": null,
       "connect_neutral_lv": null,
       "max_loading": 1.1,
@@ -5114,549 +5110,366 @@
       "tap": 1.0
     }
   ],
-  "switches": [
-    {
-      "id": "switch",
-      "phases": "abc",
-      "bus1": "MVVoltage_source",
-      "bus2": "76_SALAN"
-    }
-  ],
+  "switches": [],
   "loads": [
     {
       "id": "76_LVBus1018330_consumption",
       "bus": "76_LVBus1018330",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [2566.78764365169, 770.036293095507]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [2566.78764365169, 770.036293095507]]
     },
     {
       "id": "76_LVBus1018330_production",
       "bus": "76_LVBus1018330",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018331_consumption",
       "bus": "76_LVBus1018331",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018331_production",
       "bus": "76_LVBus1018331",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018334_consumption",
       "bus": "76_LVBus1018334",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018334_production",
       "bus": "76_LVBus1018334",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018332_consumption",
       "bus": "76_LVBus1018332",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018332_production",
       "bus": "76_LVBus1018332",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018333_consumption",
       "bus": "76_LVBus1018333",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018333_production",
       "bus": "76_LVBus1018333",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018335_consumption",
       "bus": "76_LVBus1018335",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [4682.000426360276, 1404.6001279080826],
-        [1024.7602561899266, 307.42807685697795],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[4682.000426360276, 1404.6001279080826], [1024.7602561899266, 307.42807685697795], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018335_production",
       "bus": "76_LVBus1018335",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_MVLV129880_consumption",
       "bus": "76_MVLV129880",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_MVLV129880_production",
       "bus": "76_MVLV129880",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_MVLV006291_consumption",
       "bus": "76_MVLV006291",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_MVLV006291_production",
       "bus": "76_MVLV006291",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_MVLV110131_consumption",
       "bus": "76_MVLV110131",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_MVLV110131_production",
       "bus": "76_MVLV110131",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018314_consumption",
       "bus": "76_LVBus1018314",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018314_production",
       "bus": "76_LVBus1018314",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018315_consumption",
       "bus": "76_LVBus1018315",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018315_production",
       "bus": "76_LVBus1018315",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018317_consumption",
       "bus": "76_LVBus1018317",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018317_production",
       "bus": "76_LVBus1018317",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018328_consumption",
       "bus": "76_LVBus1018328",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018328_production",
       "bus": "76_LVBus1018328",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018318_consumption",
       "bus": "76_LVBus1018318",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018318_production",
       "bus": "76_LVBus1018318",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018327_consumption",
       "bus": "76_LVBus1018327",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [7511.687572482996, 2253.5062717448986],
-        [330.57693876548586, 99.17308162964575]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [7511.687572482996, 2253.5062717448986], [330.57693876548586, 99.17308162964575]]
     },
     {
       "id": "76_LVBus1018327_production",
       "bus": "76_LVBus1018327",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018319_consumption",
       "bus": "76_LVBus1018319",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [7874.067112757338, 2362.220133827201],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[7874.067112757338, 2362.220133827201], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018319_production",
       "bus": "76_LVBus1018319",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018320_consumption",
       "bus": "76_LVBus1018320",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [8371.508299319235, 2511.4524897957704]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [8371.508299319235, 2511.4524897957704]]
     },
     {
       "id": "76_LVBus1018320_production",
       "bus": "76_LVBus1018320",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018321_consumption",
       "bus": "76_LVBus1018321",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [497.3035510949915, 149.19106532849744],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [497.3035510949915, 149.19106532849744], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018321_production",
       "bus": "76_LVBus1018321",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018322_consumption",
       "bus": "76_LVBus1018322",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018322_production",
       "bus": "76_LVBus1018322",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018323_consumption",
       "bus": "76_LVBus1018323",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018323_production",
       "bus": "76_LVBus1018323",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018324_consumption",
       "bus": "76_LVBus1018324",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018324_production",
       "bus": "76_LVBus1018324",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018325_consumption",
       "bus": "76_LVBus1018325",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018325_production",
       "bus": "76_LVBus1018325",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018326_consumption",
       "bus": "76_LVBus1018326",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [96.61051436981984, 28.98315431094595],
         [96.61051436981984, 28.98315431094595],
@@ -5667,260 +5480,176 @@
       "id": "76_LVBus1018326_production",
       "bus": "76_LVBus1018326",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018316_consumption",
       "bus": "76_LVBus1018316",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [2730.190776541421, 819.0572329624264],
-        [0.0, 0.0],
-        [3336.3658533110342, 1000.9097559933102]
-      ]
+      "type": "power",
+      "powers": [[2730.190776541421, 819.0572329624264], [0.0, 0.0], [3336.3658533110342, 1000.9097559933102]]
     },
     {
       "id": "76_LVBus1018316_production",
       "bus": "76_LVBus1018316",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018308_consumption",
       "bus": "76_LVBus1018308",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018308_production",
       "bus": "76_LVBus1018308",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018309_consumption",
       "bus": "76_LVBus1018309",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018309_production",
       "bus": "76_LVBus1018309",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018310_consumption",
       "bus": "76_LVBus1018310",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [2983.2313918313366, 894.969417549401],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [2983.2313918313366, 894.969417549401], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018310_production",
       "bus": "76_LVBus1018310",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018311_consumption",
       "bus": "76_LVBus1018311",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018311_production",
       "bus": "76_LVBus1018311",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018312_consumption",
       "bus": "76_LVBus1018312",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [4221.1091315493795, 1266.3327394648138]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [4221.1091315493795, 1266.3327394648138]]
     },
     {
       "id": "76_LVBus1018312_production",
       "bus": "76_LVBus1018312",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018341_consumption",
       "bus": "76_LVBus1018341",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018341_production",
       "bus": "76_LVBus1018341",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018339_consumption",
       "bus": "76_LVBus1018339",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018339_production",
       "bus": "76_LVBus1018339",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018343_consumption",
       "bus": "76_LVBus1018343",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [1605.1890397986142, 481.55671193958426],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [1605.1890397986142, 481.55671193958426], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018343_production",
       "bus": "76_LVBus1018343",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018344_consumption",
       "bus": "76_LVBus1018344",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018344_production",
       "bus": "76_LVBus1018344",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018347_consumption",
       "bus": "76_LVBus1018347",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [590.3783453190997, 177.1135035957299],
         [590.3783453190997, 177.1135035957299],
@@ -5931,20 +5660,16 @@
       "id": "76_LVBus1018347_production",
       "bus": "76_LVBus1018347",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018348_consumption",
       "bus": "76_LVBus1018348",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [58.58079202639454, 17.574237607918363],
         [58.58079202639454, 17.574237607918363],
@@ -5955,92 +5680,64 @@
       "id": "76_LVBus1018348_production",
       "bus": "76_LVBus1018348",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018349_consumption",
       "bus": "76_LVBus1018349",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018349_production",
       "bus": "76_LVBus1018349",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018350_consumption",
       "bus": "76_LVBus1018350",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018350_production",
       "bus": "76_LVBus1018350",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018345_consumption",
       "bus": "76_LVBus1018345",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018345_production",
       "bus": "76_LVBus1018345",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018346_consumption",
       "bus": "76_LVBus1018346",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [404.99803646977927, 121.49941094093377],
         [40.66402772775548, 12.199208318326644],
@@ -6051,140 +5748,96 @@
       "id": "76_LVBus1018346_production",
       "bus": "76_LVBus1018346",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_MVLV006293_consumption",
       "bus": "76_MVLV006293",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_MVLV006293_production",
       "bus": "76_MVLV006293",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_MVLV007408_consumption",
       "bus": "76_MVLV007408",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_MVLV007408_production",
       "bus": "76_MVLV007408",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018271_consumption",
       "bus": "76_LVBus1018271",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018271_production",
       "bus": "76_LVBus1018271",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018274_consumption",
       "bus": "76_LVBus1018274",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [1637.974629826306, 491.3923889478918],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[1637.974629826306, 491.3923889478918], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018274_production",
       "bus": "76_LVBus1018274",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018275_consumption",
       "bus": "76_LVBus1018275",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [3773.535326368897, 1132.060597910669],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[3773.535326368897, 1132.060597910669], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018275_production",
       "bus": "76_LVBus1018275",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018276_consumption",
       "bus": "76_LVBus1018276",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [3967.0451333400456, 1190.1135400020137],
         [2928.969924191407, 878.690977257422],
@@ -6195,140 +5848,96 @@
       "id": "76_LVBus1018276_production",
       "bus": "76_LVBus1018276",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018279_consumption",
       "bus": "76_LVBus1018279",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [3229.3494936756433, 968.804848102693],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [3229.3494936756433, 968.804848102693], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018279_production",
       "bus": "76_LVBus1018279",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018280_consumption",
       "bus": "76_LVBus1018280",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018280_production",
       "bus": "76_LVBus1018280",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018281_consumption",
       "bus": "76_LVBus1018281",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018281_production",
       "bus": "76_LVBus1018281",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018282_consumption",
       "bus": "76_LVBus1018282",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018282_production",
       "bus": "76_LVBus1018282",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018283_consumption",
       "bus": "76_LVBus1018283",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018283_production",
       "bus": "76_LVBus1018283",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018277_consumption",
       "bus": "76_LVBus1018277",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [5813.512624908453, 1744.053787472536],
         [4163.373700994384, 1249.0121102983153],
@@ -6339,284 +5948,192 @@
       "id": "76_LVBus1018277_production",
       "bus": "76_LVBus1018277",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018278_consumption",
       "bus": "76_LVBus1018278",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [7568.696969364179, 2270.6090908092533],
-        [9948.245509396394, 2984.4736528189183]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [7568.696969364179, 2270.6090908092533], [9948.245509396394, 2984.4736528189183]]
     },
     {
       "id": "76_LVBus1018278_production",
       "bus": "76_LVBus1018278",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018272_consumption",
       "bus": "76_LVBus1018272",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [10390.144821188764, 3117.043446356629]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [10390.144821188764, 3117.043446356629]]
     },
     {
       "id": "76_LVBus1018272_production",
       "bus": "76_LVBus1018272",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018273_consumption",
       "bus": "76_LVBus1018273",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [4245.299741725227, 1273.589922517568],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [4245.299741725227, 1273.589922517568], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018273_production",
       "bus": "76_LVBus1018273",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018266_consumption",
       "bus": "76_LVBus1018266",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018266_production",
       "bus": "76_LVBus1018266",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018267_consumption",
       "bus": "76_LVBus1018267",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018267_production",
       "bus": "76_LVBus1018267",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018268_consumption",
       "bus": "76_LVBus1018268",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018268_production",
       "bus": "76_LVBus1018268",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018269_consumption",
       "bus": "76_LVBus1018269",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018269_production",
       "bus": "76_LVBus1018269",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus2076477_consumption",
       "bus": "76_LVBus2076477",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus2076477_production",
       "bus": "76_LVBus2076477",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus2056221_consumption",
       "bus": "76_LVBus2056221",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [5299.629041046293, 1589.888712313888],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[5299.629041046293, 1589.888712313888], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus2056221_production",
       "bus": "76_LVBus2056221",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus2056222_consumption",
       "bus": "76_LVBus2056222",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus2056222_production",
       "bus": "76_LVBus2056222",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018263_consumption",
       "bus": "76_LVBus1018263",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [3319.06923566437, 995.720770699311],
-        [2135.151389340175, 640.5454168020524],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[3319.06923566437, 995.720770699311], [2135.151389340175, 640.5454168020524], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018263_production",
       "bus": "76_LVBus1018263",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018264_consumption",
       "bus": "76_LVBus1018264",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [7084.948079416076, 2125.484423824823],
         [10213.825476116357, 3064.147642834907],
@@ -6627,44 +6144,32 @@
       "id": "76_LVBus1018264_production",
       "bus": "76_LVBus1018264",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018259_consumption",
       "bus": "76_LVBus1018259",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018259_production",
       "bus": "76_LVBus1018259",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018260_consumption",
       "bus": "76_LVBus1018260",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [1126.436130360757, 337.9308391082271],
         [38.00789256958697, 11.402367770876092],
@@ -6675,20 +6180,16 @@
       "id": "76_LVBus1018260_production",
       "bus": "76_LVBus1018260",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018261_consumption",
       "bus": "76_LVBus1018261",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [252.59101923469694, 75.77730577040909],
         [252.59101923469694, 75.77730577040909],
@@ -6699,332 +6200,224 @@
       "id": "76_LVBus1018261_production",
       "bus": "76_LVBus1018261",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018249_consumption",
       "bus": "76_LVBus1018249",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [437.0570208356479, 131.11710625069438]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [437.0570208356479, 131.11710625069438]]
     },
     {
       "id": "76_LVBus1018249_production",
       "bus": "76_LVBus1018249",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018250_consumption",
       "bus": "76_LVBus1018250",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [8046.152809182389, 2413.8458427547166]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [8046.152809182389, 2413.8458427547166]]
     },
     {
       "id": "76_LVBus1018250_production",
       "bus": "76_LVBus1018250",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018251_consumption",
       "bus": "76_LVBus1018251",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [7774.455894198709, 2332.3367682596127],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [7774.455894198709, 2332.3367682596127], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018251_production",
       "bus": "76_LVBus1018251",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018252_consumption",
       "bus": "76_LVBus1018252",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [7076.680930923942, 2123.0042792771824],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[7076.680930923942, 2123.0042792771824], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018252_production",
       "bus": "76_LVBus1018252",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018253_consumption",
       "bus": "76_LVBus1018253",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018253_production",
       "bus": "76_LVBus1018253",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018254_consumption",
       "bus": "76_LVBus1018254",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [1334.5289700799485, 400.35869102398453],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [1334.5289700799485, 400.35869102398453], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018254_production",
       "bus": "76_LVBus1018254",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018255_consumption",
       "bus": "76_LVBus1018255",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [2795.863862216049, 838.7591586648147],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [2795.863862216049, 838.7591586648147], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018255_production",
       "bus": "76_LVBus1018255",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018256_consumption",
       "bus": "76_LVBus1018256",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [2352.5987212275636, 705.7796163682691]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [2352.5987212275636, 705.7796163682691]]
     },
     {
       "id": "76_LVBus1018256_production",
       "bus": "76_LVBus1018256",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018257_consumption",
       "bus": "76_LVBus1018257",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018257_production",
       "bus": "76_LVBus1018257",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_MVLV131480_consumption",
       "bus": "76_MVLV131480",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_MVLV131480_production",
       "bus": "76_MVLV131480",
       "phases": "abc",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018243_consumption",
       "bus": "76_LVBus1018243",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018243_production",
       "bus": "76_LVBus1018243",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018244_consumption",
       "bus": "76_LVBus1018244",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018244_production",
       "bus": "76_LVBus1018244",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018245_consumption",
       "bus": "76_LVBus1018245",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018245_production",
       "bus": "76_LVBus1018245",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018246_consumption",
       "bus": "76_LVBus1018246",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [1641.8041174574537, 492.5412352372361],
         [1641.8041174574537, 492.5412352372361],
@@ -7035,20 +6428,16 @@
       "id": "76_LVBus1018246_production",
       "bus": "76_LVBus1018246",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018247_consumption",
       "bus": "76_LVBus1018247",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [2258.592790822127, 677.5778372466381],
         [2258.592790822127, 677.5778372466381],
@@ -7059,116 +6448,80 @@
       "id": "76_LVBus1018247_production",
       "bus": "76_LVBus1018247",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018223_consumption",
       "bus": "76_LVBus1018223",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [3577.911140248727, 1073.373342074618],
-        [0.0, 0.0],
-        [3255.266527008232, 976.5799581024696]
-      ]
+      "type": "power",
+      "powers": [[3577.911140248727, 1073.373342074618], [0.0, 0.0], [3255.266527008232, 976.5799581024696]]
     },
     {
       "id": "76_LVBus1018223_production",
       "bus": "76_LVBus1018223",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018238_consumption",
       "bus": "76_LVBus1018238",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [10154.353321238941, 3046.3059963716823]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [10154.353321238941, 3046.3059963716823]]
     },
     {
       "id": "76_LVBus1018238_production",
       "bus": "76_LVBus1018238",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018239_consumption",
       "bus": "76_LVBus1018239",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [5464.986088517752, 1639.4958265553257],
-        [9564.146218641119, 2869.2438655923356],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[5464.986088517752, 1639.4958265553257], [9564.146218641119, 2869.2438655923356], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018239_production",
       "bus": "76_LVBus1018239",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018241_consumption",
       "bus": "76_LVBus1018241",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [8337.693464664804, 2501.308039399441],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [8337.693464664804, 2501.308039399441], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018241_production",
       "bus": "76_LVBus1018241",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018240_consumption",
       "bus": "76_LVBus1018240",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [980.6445336392002, 294.19336009176004],
         [11243.160416596635, 3372.94812497899],
@@ -7179,140 +6532,96 @@
       "id": "76_LVBus1018240_production",
       "bus": "76_LVBus1018240",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018229_consumption",
       "bus": "76_LVBus1018229",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [4581.381939300915, 1374.4145817902745],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [4581.381939300915, 1374.4145817902745], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018229_production",
       "bus": "76_LVBus1018229",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018230_consumption",
       "bus": "76_LVBus1018230",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [5240.621614640231, 1572.1864843920694],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[5240.621614640231, 1572.1864843920694], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018230_production",
       "bus": "76_LVBus1018230",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018231_consumption",
       "bus": "76_LVBus1018231",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [2710.390911078799, 813.1172733236397],
-        [8388.019026804177, 2516.405708041253]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [2710.390911078799, 813.1172733236397], [8388.019026804177, 2516.405708041253]]
     },
     {
       "id": "76_LVBus1018231_production",
       "bus": "76_LVBus1018231",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018232_consumption",
       "bus": "76_LVBus1018232",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018232_production",
       "bus": "76_LVBus1018232",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018233_consumption",
       "bus": "76_LVBus1018233",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018233_production",
       "bus": "76_LVBus1018233",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018234_consumption",
       "bus": "76_LVBus1018234",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [4326.092320100164, 1297.8276960300493],
         [61.063957914903746, 18.319187374471124],
@@ -7323,116 +6632,80 @@
       "id": "76_LVBus1018234_production",
       "bus": "76_LVBus1018234",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018235_consumption",
       "bus": "76_LVBus1018235",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [4569.573770878458, 1370.8721312635373],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[4569.573770878458, 1370.8721312635373], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018235_production",
       "bus": "76_LVBus1018235",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018236_consumption",
       "bus": "76_LVBus1018236",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [2102.971722535274, 630.8915167605821],
-        [0.0, 0.0],
-        [3031.0602749219433, 909.318082476583]
-      ]
+      "type": "power",
+      "powers": [[2102.971722535274, 630.8915167605821], [0.0, 0.0], [3031.0602749219433, 909.318082476583]]
     },
     {
       "id": "76_LVBus1018236_production",
       "bus": "76_LVBus1018236",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018237_consumption",
       "bus": "76_LVBus1018237",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [4385.476810762911, 1315.6430432288732]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [4385.476810762911, 1315.6430432288732]]
     },
     {
       "id": "76_LVBus1018237_production",
       "bus": "76_LVBus1018237",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018224_consumption",
       "bus": "76_LVBus1018224",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [6787.020020613043, 2036.1060061839128],
-        [0.0, 0.0],
-        [6051.247812470498, 1815.3743437411492]
-      ]
+      "type": "power",
+      "powers": [[6787.020020613043, 2036.1060061839128], [0.0, 0.0], [6051.247812470498, 1815.3743437411492]]
     },
     {
       "id": "76_LVBus1018224_production",
       "bus": "76_LVBus1018224",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018225_consumption",
       "bus": "76_LVBus1018225",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [2919.8938017582145, 875.9681405274644],
         [4073.049508817771, 1221.9148526453312],
@@ -7443,68 +6716,48 @@
       "id": "76_LVBus1018225_production",
       "bus": "76_LVBus1018225",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018226_consumption",
       "bus": "76_LVBus1018226",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [6983.947806677229, 2095.1843420031687],
-        [3965.056674608756, 1189.5170023826267],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[6983.947806677229, 2095.1843420031687], [3965.056674608756, 1189.5170023826267], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018226_production",
       "bus": "76_LVBus1018226",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018227_consumption",
       "bus": "76_LVBus1018227",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [4765.480171625354, 1429.6440514876062],
-        [3402.1798882871813, 1020.6539664861543]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [4765.480171625354, 1429.6440514876062], [3402.1798882871813, 1020.6539664861543]]
     },
     {
       "id": "76_LVBus1018227_production",
       "bus": "76_LVBus1018227",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018228_consumption",
       "bus": "76_LVBus1018228",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [5249.345310794929, 1574.8035932384787],
         [3498.8083593604324, 1049.6425078081297],
@@ -7515,140 +6768,96 @@
       "id": "76_LVBus1018228_production",
       "bus": "76_LVBus1018228",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018287_consumption",
       "bus": "76_LVBus1018287",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018287_production",
       "bus": "76_LVBus1018287",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018288_consumption",
       "bus": "76_LVBus1018288",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018288_production",
       "bus": "76_LVBus1018288",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018289_consumption",
       "bus": "76_LVBus1018289",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018289_production",
       "bus": "76_LVBus1018289",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018290_consumption",
       "bus": "76_LVBus1018290",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [1587.4390554153597, 476.2317166246079],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[1587.4390554153597, 476.2317166246079], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018290_production",
       "bus": "76_LVBus1018290",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018291_consumption",
       "bus": "76_LVBus1018291",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018291_production",
       "bus": "76_LVBus1018291",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018292_consumption",
       "bus": "76_LVBus1018292",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [2.988298243645323, 0.8964894730935968],
         [3219.889554427496, 965.9668663282488],
@@ -7659,20 +6868,16 @@
       "id": "76_LVBus1018292_production",
       "bus": "76_LVBus1018292",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018293_consumption",
       "bus": "76_LVBus1018293",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [3708.131520199039, 1112.4394560597118],
         [4095.4322455580054, 1228.6296736674017],
@@ -7683,20 +6888,16 @@
       "id": "76_LVBus1018293_production",
       "bus": "76_LVBus1018293",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018294_consumption",
       "bus": "76_LVBus1018294",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [906.7417010006739, 272.02251030020216],
         [803.6628838477568, 241.09886515432703],
@@ -7707,44 +6908,32 @@
       "id": "76_LVBus1018294_production",
       "bus": "76_LVBus1018294",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018295_consumption",
       "bus": "76_LVBus1018295",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018295_production",
       "bus": "76_LVBus1018295",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018296_consumption",
       "bus": "76_LVBus1018296",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [3842.9159232675943, 1152.8747769802783],
         [4286.519904314005, 1285.9559712942014],
@@ -7755,68 +6944,48 @@
       "id": "76_LVBus1018296_production",
       "bus": "76_LVBus1018296",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018297_consumption",
       "bus": "76_LVBus1018297",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [3683.2494082895087, 1104.9748224868526],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [3683.2494082895087, 1104.9748224868526], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018297_production",
       "bus": "76_LVBus1018297",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018298_consumption",
       "bus": "76_LVBus1018298",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018298_production",
       "bus": "76_LVBus1018298",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018299_consumption",
       "bus": "76_LVBus1018299",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [6634.863717818893, 1990.4591153456677],
         [6634.863717818893, 1990.4591153456677],
@@ -7827,68 +6996,48 @@
       "id": "76_LVBus1018299_production",
       "bus": "76_LVBus1018299",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018301_consumption",
       "bus": "76_LVBus1018301",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018301_production",
       "bus": "76_LVBus1018301",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018305_consumption",
       "bus": "76_LVBus1018305",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018305_production",
       "bus": "76_LVBus1018305",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018306_consumption",
       "bus": "76_LVBus1018306",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [29.806559054886645, 8.941967716465992],
         [29.806559054886645, 8.941967716465992],
@@ -7899,68 +7048,48 @@
       "id": "76_LVBus1018306_production",
       "bus": "76_LVBus1018306",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018302_consumption",
       "bus": "76_LVBus1018302",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018302_production",
       "bus": "76_LVBus1018302",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018304_consumption",
       "bus": "76_LVBus1018304",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018304_production",
       "bus": "76_LVBus1018304",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     },
     {
       "id": "76_LVBus1018303_consumption",
       "bus": "76_LVBus1018303",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
+      "type": "power",
       "powers": [
         [111.01139319899629, 33.30341795969888],
         [111.01139319899629, 33.30341795969888],
@@ -7971,55 +7100,31 @@
       "id": "76_LVBus1018303_production",
       "bus": "76_LVBus1018303",
       "phases": "abcn",
-      "type": "power",
       "connect_neutral": null,
-      "powers": [
-        [0.0, 0.0],
-        [0.0, 0.0],
-        [0.0, 0.0]
-      ]
+      "type": "power",
+      "powers": [[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
     }
   ],
   "sources": [
     {
       "id": "vs",
-      "bus": "MVVoltage_source",
+      "bus": "76_SALAN",
       "phases": "abcn",
-      "type": "voltage",
       "connect_neutral": null,
-      "voltages": [
-        [11777.945491468367, 0.0],
-        [-5888.97274573418, -10200.0],
-        [-5888.97274573418, 10200.0]
-      ]
+      "type": "voltage",
+      "voltages": [[11777.945491468367, 0.0], [-5888.97274573418, -10200.0], [-5888.97274573418, 10200.0]]
     }
   ],
   "lines_params": [
     {
       "id": "O_AM_148",
       "z_line": [
-        [
-          [0.2430129333, 0.0, 0.0],
-          [0.0, 0.2430129333, 0.0],
-          [0.0, 0.0, 0.2430129333]
-        ],
-        [
-          [0.3287057245, 0.0, 0.0],
-          [0.0, 0.3287057245, 0.0],
-          [0.0, 0.0, 0.3287057245]
-        ]
+        [[0.2430129333, 0.0, 0.0], [0.0, 0.2430129333, 0.0], [0.0, 0.0, 0.2430129333]],
+        [[0.3287057245, 0.0, 0.0], [0.0, 0.3287057245, 0.0], [0.0, 0.0, 0.3287057245]]
       ],
       "y_shunt": [
-        [
-          [0.0, 0.0, 0.0],
-          [0.0, 0.0, 0.0],
-          [0.0, 0.0, 0.0]
-        ],
-        [
-          [3.5036e-6, 0.0, 0.0],
-          [0.0, 3.5036e-6, 0.0],
-          [0.0, 0.0, 3.5036e-6]
-        ]
+        [[0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0]],
+        [[3.5036e-6, 0.0, 0.0], [0.0, 3.5036e-6, 0.0], [0.0, 0.0, 3.5036e-6]]
       ],
       "ampacities": [357.0, 357.0, 357.0],
       "line_type": "OVERHEAD",
@@ -8029,28 +7134,12 @@
     {
       "id": "O_AM_54",
       "z_line": [
-        [
-          [0.6988268, 0.0, 0.0],
-          [0.0, 0.6988268, 0.0],
-          [0.0, 0.0, 0.6988268]
-        ],
-        [
-          [0.3603801484, 0.0, 0.0],
-          [0.0, 0.3603801484, 0.0],
-          [0.0, 0.0, 0.3603801484]
-        ]
+        [[0.6988268, 0.0, 0.0], [0.0, 0.6988268, 0.0], [0.0, 0.0, 0.6988268]],
+        [[0.3603801484, 0.0, 0.0], [0.0, 0.3603801484, 0.0], [0.0, 0.0, 0.3603801484]]
       ],
       "y_shunt": [
-        [
-          [0.0, 0.0, 0.0],
-          [0.0, 0.0, 0.0],
-          [0.0, 0.0, 0.0]
-        ],
-        [
-          [3.1816e-6, 0.0, 0.0],
-          [0.0, 3.1816e-6, 0.0],
-          [0.0, 0.0, 3.1816e-6]
-        ]
+        [[0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0]],
+        [[3.1816e-6, 0.0, 0.0], [0.0, 3.1816e-6, 0.0], [0.0, 0.0, 3.1816e-6]]
       ],
       "ampacities": [193.0, 193.0, 193.0],
       "line_type": "OVERHEAD",
@@ -8096,28 +7185,12 @@
     {
       "id": "U_AL_150",
       "z_line": [
-        [
-          [0.206, 0.0, 0.0],
-          [0.0, 0.206, 0.0],
-          [0.0, 0.0, 0.206]
-        ],
-        [
-          [0.0960502777, 0.0, 0.0],
-          [0.0, 0.0960502777, 0.0],
-          [0.0, 0.0, 0.0960502777]
-        ]
+        [[0.206, 0.0, 0.0], [0.0, 0.206, 0.0], [0.0, 0.0, 0.206]],
+        [[0.0960502777, 0.0, 0.0], [0.0, 0.0960502777, 0.0], [0.0, 0.0, 0.0960502777]]
       ],
       "y_shunt": [
-        [
-          [0.0, 0.0, 0.0],
-          [0.0, 0.0, 0.0],
-          [0.0, 0.0, 0.0]
-        ],
-        [
-          [3.41234e-5, 0.0, 0.0],
-          [0.0, 3.41234e-5, 0.0],
-          [0.0, 0.0, 3.41234e-5]
-        ]
+        [[0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0]],
+        [[3.41234e-5, 0.0, 0.0], [0.0, 3.41234e-5, 0.0], [0.0, 0.0, 3.41234e-5]]
       ],
       "ampacities": [325.0, 325.0, 325.0],
       "line_type": "UNDERGROUND",
@@ -8220,8 +7293,8 @@
       "id": "1",
       "ground": "gnd",
       "element": {
-        "id": "MVVoltage_source",
-        "type": "bus"
+        "id": "vs",
+        "type": "source"
       },
       "phase": "n",
       "impedance": [0.0, 0.0],

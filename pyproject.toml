@@ -3,11 +3,11 @@ name = "representative-french-power-grids"
 version = "0.1.0"
 description = "A repository used to store the 150 representative networks of France's electricity distribution network."
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
   "requests>=2.32.3",
   "rich>=14.0.0",
-  "roseau-load-flow>=0.13.1",
+  "roseau-load-flow>=0.14.0",
 ]
 
 # MD format
